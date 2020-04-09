@@ -2,7 +2,7 @@
 
 This repo contains front end code and documentation used by the Veteran facing services on VA.gov. It's a monorepo managed by Lerna, a tool for managing versioning and publishing for multiple modules located in a single repo.
 
-There is [another repository for the documentation site](https://github.com/department-of-veterans-affairs/vets-design-system-documentation). The documentation site can be viewed at [design.va.gov](https://design.va.gov).
+There is [another repository for the VA.gov Design System Documentation](https://github.com/department-of-veterans-affairs/vets-design-system-documentation). The VA.gov Design System Documentation site can be viewed at [design.va.gov](https://design.va.gov).
 
 
 
@@ -21,9 +21,6 @@ There is [another repository for the documentation site](https://github.com/depa
 - You also need Yarn. To install Yarn, you'll use Homebrew. In Terminal, run `brew install yarn`
 
 **Clone the veteran-facing-services-tools repo:**
-
-You can put the repo anywhere on your computer, but as a suggestion:
-- In Terminal, navigate to your desktop: `cd ~/desktop`
 - Clone the Github repo by running: `git clone https://github.com/department-of-veterans-affairs/veteran-facing-services-tools.git`
 - Then: `cd veteran-facing-services-tools`
 - Run `yarn` to install dependencies for each module
@@ -39,3 +36,7 @@ Available npm scripts:
 ## Updating formation and formation-react
 
 The process for updating formation and formation-react can be found at [https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/getting-started/common-tasks/updating-formation](https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/getting-started/common-tasks/updating-formation)
+
+## Updating content of [VA.gov client application documentation](https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/)
+Update the corresponding document in 
+(https://github.com/department-of-veterans-affairs/veteran-facing-services-tools/tree/master/packages/documentation/src/pages)
