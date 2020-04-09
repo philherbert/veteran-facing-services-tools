@@ -38,5 +38,4 @@ Available npm scripts:
 The process for updating formation and formation-react can be found at [https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/getting-started/common-tasks/updating-formation](https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/getting-started/common-tasks/updating-formation)
 
 ## Updating content of [VA.gov client application documentation](https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/)
-Update the corresponding document in 
-(https://github.com/department-of-veterans-affairs/veteran-facing-services-tools/tree/master/packages/documentation/src/pages)
+Update the corresponding document in [packages/documentation/src/pages](packages/documentation/src/pages)
