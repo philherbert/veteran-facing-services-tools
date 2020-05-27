@@ -76,21 +76,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-react-docgen`,
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        // CommonMark mode (default: true)
-        commonmark: true,
-        // Footnotes mode (default: true)
-        footnotes: true,
-        // Pedantic mode (default: true)
-        pedantic: true,
-        // GitHub Flavored Markdown mode (default: true)
-        gfm: true,
-        // Plugins configs
-        plugins: [],
-      },
-    },
+    `gatsby-transformer-remark`,
     `github-api-pages`,
     `mdx-pages`,
     {
@@ -102,7 +88,7 @@ module.exports = {
         resolvers: {
           // For any node of type MarkdownRemark, list how to resolve the fields` values
           SitePage: {
-            title: (node) => {
+            title: node => {
               if (
                 node.context &&
                 node.context.frontmatter &&
@@ -122,7 +108,7 @@ module.exports = {
 
               return '';
             },
-            tags: (node) => {
+            tags: node => {
               if (
                 node.context &&
                 node.context.frontmatter &&
@@ -133,7 +119,7 @@ module.exports = {
 
               return '';
             },
-            path: (node) => node.path,
+            path: node => node.path,
           },
         },
       },
