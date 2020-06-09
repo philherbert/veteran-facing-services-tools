@@ -16,6 +16,13 @@ export default class Header extends React.Component {
 
   render() {
     const { location } = this.props;
+    const query = graphql`
+      query SearchIndexQuery {
+        siteSearchIndex {
+          index
+        }
+      }
+    `;
     return (
       <div>
         <a className="usa-skipnav" href="#main-content">
@@ -43,13 +50,7 @@ export default class Header extends React.Component {
               </div>
               <div className="site-c-header__utility-links">
                 <StaticQuery
-                  query={graphql`
-                    query SearchIndexQuery {
-                      siteSearchIndex {
-                        index
-                      }
-                    }
-                  `}
+                  query={query}
                   render={(data) => (
                     <Search searchIndex={data.siteSearchIndex.index} />
                   )}
