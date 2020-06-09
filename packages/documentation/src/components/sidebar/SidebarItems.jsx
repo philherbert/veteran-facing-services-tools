@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link, StaticQuery, graphql } from 'gatsby';
+import React from "react";
+import { Link, StaticQuery, graphql } from "gatsby";
 
 /**
  * Sidebar
@@ -27,9 +27,9 @@ function ComponentList() {
           }
         }
       `}
-      render={data => (
+      render={(data) => (
         <SidebarItems
-          items={data.components.edges.map(comp => ({
+          items={data.components.edges.map((comp) => ({
             href: comp.node.path,
             name: comp.node.context.name,
           }))}
@@ -56,7 +56,7 @@ export default function SidebarItems({ items, isSublist = false }) {
 
   return (
     <ul className="site-c-sidenav-list">
-      {items.map(item => {
+      {items.map((item) => {
         if (item.items) {
           return (
             <li key={item.name}>
@@ -66,7 +66,7 @@ export default function SidebarItems({ items, isSublist = false }) {
             </li>
           );
         }
-        if (item.query === 'componentList') {
+        if (item.query === "componentList") {
           return (
             <li key={item.name}>
               {isSublist && <SidebarItem item={item} />}
