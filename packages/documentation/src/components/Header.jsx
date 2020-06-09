@@ -1,9 +1,10 @@
 /* eslint-disable react/jsx-key */
 import React from "react";
-import { graphql, Link, StaticQuery } from "gatsby";
+import { Link, StaticQuery } from "gatsby";
 import sidebarData from "../sidebar";
 import Search from "./Search";
 import MobileNav from "./MobileNav";
+import headerQuery from "./headerQuery";
 
 export default class Header extends React.Component {
   constructor(props) {
@@ -16,13 +17,6 @@ export default class Header extends React.Component {
 
   render() {
     const { location } = this.props;
-    const query = graphql`
-      query SearchIndexQuery {
-        siteSearchIndex {
-          index
-        }
-      }
-    `;
     return (
       <div>
         <a className="usa-skipnav" href="#main-content">
@@ -50,7 +44,7 @@ export default class Header extends React.Component {
               </div>
               <div className="site-c-header__utility-links">
                 <StaticQuery
-                  query={query}
+                  query={headerQuery}
                   render={(data) => (
                     <Search searchIndex={data.siteSearchIndex.index} />
                   )}
