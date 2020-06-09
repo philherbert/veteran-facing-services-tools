@@ -1,9 +1,9 @@
 /* eslint-disable react/jsx-key */
-import React from 'react';
-import { graphql, Link, StaticQuery } from 'gatsby';
-import sidebarData from '../sidebar';
-import Search from './Search';
-import MobileNav from './MobileNav';
+import React from "react";
+import { graphql, Link, StaticQuery } from "gatsby";
+import sidebarData from "../sidebar";
+import Search from "./Search";
+import MobileNav from "./MobileNav";
 
 export default class Header extends React.Component {
   constructor(props) {
@@ -33,10 +33,10 @@ export default class Header extends React.Component {
                   >
                     <strong className="vads-u-display--block small-screen:vads-u-display--inline">
                       VA.gov
-                    </strong>{' '}
+                    </strong>{" "}
                     <span className="vads-u-display--none small-screen:vads-u-display--inline">
                       |
-                    </span>{' '}
+                    </span>{" "}
                     Client application documentation
                   </Link>
                 </em>
@@ -50,7 +50,7 @@ export default class Header extends React.Component {
                       }
                     }
                   `}
-                  render={data => (
+                  render={(data) => (
                     <Search searchIndex={data.siteSearchIndex.index} />
                   )}
                 />
@@ -76,13 +76,13 @@ export default class Header extends React.Component {
             </div>
             <nav className="site-c-header__nav">
               <ul className="site-c-header__nav-list">
-                {sidebarData.sections.map(section => (
+                {sidebarData.sections.map((section) => (
                   <li key={section.id} className="site-c-header__nav-item">
                     <Link
                       className={`site-c-header__nav-item__link ${
                         location.pathname.includes(section.href)
-                          ? 'current'
-                          : ''
+                          ? "current"
+                          : ""
                       }`}
                       to={section.href}
                     >
