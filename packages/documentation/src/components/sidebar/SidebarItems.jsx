@@ -1,6 +1,24 @@
 import React from "react";
 import { Link, StaticQuery, graphql } from "gatsby";
 
+const query = `
+query ComponentListQuery {
+  components: allSitePage(
+    filter: { context: { source: { eq: "component" } } }
+  ) {
+    edges {
+      node {
+        path
+        context {
+          source
+          name
+        }
+      }
+    }
+  }
+}
+`;
+
 /**
  * Sidebar
  *
@@ -10,23 +28,7 @@ import { Link, StaticQuery, graphql } from "gatsby";
 function ComponentList() {
   return (
     <StaticQuery
-      query={graphql`
-        query ComponentListQuery {
-          components: allSitePage(
-            filter: { context: { source: { eq: "component" } } }
-          ) {
-            edges {
-              node {
-                path
-                context {
-                  source
-                  name
-                }
-              }
-            }
-          }
-        }
-      `}
+      query={query}
       render={(data) => (
         <SidebarItems
           items={data.components.edges.map((comp) => ({
