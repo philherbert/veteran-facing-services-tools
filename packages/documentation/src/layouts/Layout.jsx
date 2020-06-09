@@ -1,10 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
-import { StaticQuery, graphql } from 'gatsby';
+import React from "react";
+import PropTypes from "prop-types";
+import Helmet from "react-helmet";
+import { StaticQuery, graphql } from "gatsby";
 
-import Header from '../components/Header';
-import '../scss/main.scss';
+import Header from "../components/Header";
+import "../scss/main.scss";
 
 /**
  * Layout
@@ -14,25 +14,25 @@ import '../scss/main.scss';
  */
 class Layout extends React.Component {
   componentDidMount() {
-    window.mermaid_config = { theme: 'default', startOnLoad: true }; // eslint-disable-line camelcase
-    const s = document.createElement('script');
+    window.mermaid_config = { theme: "default", startOnLoad: true }; // eslint-disable-line camelcase
+    const s = document.createElement("script");
     s.setAttribute(
-      'src',
-      'https://unpkg.com/mermaid@7.1.0/dist/mermaid.min.js',
+      "src",
+      "https://unpkg.com/mermaid@7.1.0/dist/mermaid.min.js"
     );
     document.head.appendChild(s);
 
     if (window.mermaid) {
       window.mermaid.init(
         undefined,
-        document.getElementsByClassName('mermaid'),
+        document.getElementsByClassName("mermaid")
       );
     }
   }
 
   getSitePages(pages) {
     // removing the index from the list
-    return pages.filter(page => page.node.fields.slug !== '/');
+    return pages.filter((page) => page.node.fields.slug !== "/");
   }
 
   render() {
@@ -49,27 +49,27 @@ class Layout extends React.Component {
             }
           }
         `}
-        render={data => (
+        render={(data) => (
           <>
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
                 {
-                  name: 'description',
+                  name: "description",
                   content:
-                    'Template for creating design system documentatation',
+                    "Template for creating design system documentatation",
                 },
                 {
-                  name: 'docsearch:language',
-                  content: 'en',
+                  name: "docsearch:language",
+                  content: "en",
                 },
                 {
-                  name: 'docsearch:version',
-                  content: '1.0.0',
+                  name: "docsearch:version",
+                  content: "1.0.0",
                 },
                 {
-                  name: 'keywords',
-                  content: 'design system, style guide, documentation',
+                  name: "keywords",
+                  content: "design system, style guide, documentation",
                 },
               ]}
             >
