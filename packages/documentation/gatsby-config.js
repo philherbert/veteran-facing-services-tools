@@ -1,23 +1,23 @@
 /* eslint-disable */
-const path = require('path');
+const path = require("path");
 
 module.exports = {
   siteMetadata: {
     description: `Resources and documentation for Development within the VA.gov project`,
     siteUrl: `https://department-of-veterans-affairs.github.io/veteran-facing-services-tools`,
     title: `VA.gov | Client Application Documentation`,
-    sidebar: require('./src/sidebar.js'),
+    sidebar: require("./src/sidebar.js"),
   },
-  pathPrefix: '/veteran-facing-services-tools',
+  pathPrefix: "/veteran-facing-services-tools",
   plugins: [
     {
-      resolve: 'gatsby-source-git',
+      resolve: "gatsby-source-git",
       options: {
-        name: 'va.gov-team',
+        name: "va.gov-team",
         remote:
-          'https://github.com/department-of-veterans-affairs/va.gov-team.git',
-        branch: 'master',
-        patterns: 'platform/working-with-vsp/**',
+          "https://github.com/department-of-veterans-affairs/va.gov-team.git",
+        branch: "master",
+        patterns: "platform/working-with-vsp/**",
       },
     },
     `gatsby-plugin-react-helmet`,
@@ -41,10 +41,10 @@ module.exports = {
     {
       resolve: `gatsby-mdx`,
       options: {
-        extensions: ['.mdx', '.md'],
-        mediaTypes: ['text/x-markdown'],
+        extensions: [".mdx", ".md"],
+        mediaTypes: ["text/x-markdown"],
         defaultLayouts: {
-          default: require.resolve('./src/layouts/SidebarLayout.jsx'),
+          default: require.resolve("./src/layouts/SidebarLayout.jsx"),
         },
         gatsbyRemarkPlugins: [
           {
@@ -57,11 +57,11 @@ module.exports = {
           {
             resolve: path.resolve(
               __dirname,
-              './plugins/remark/gatsby-remark-mdx-mermaid',
+              "./plugins/remark/gatsby-remark-mdx-mermaid"
             ),
           },
           {
-            resolve: 'gatsby-remark-slug',
+            resolve: "gatsby-remark-slug",
           },
         ],
       },
@@ -72,7 +72,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `../formation-react/src/components`,
-        name: 'components',
+        name: "components",
       },
     },
     `gatsby-transformer-react-docgen`,
@@ -117,10 +117,10 @@ module.exports = {
                 // Search by title derived from documents pulled from the GitHub repo.
                 return node.context.title;
               } else {
-                console.info('Page title missing from front matter.', node);
+                console.info("Page title missing from front matter.", node);
               }
 
-              return '';
+              return "";
             },
             tags: (node) => {
               if (
@@ -131,7 +131,7 @@ module.exports = {
                 return node.context.frontmatter.tags;
               }
 
-              return '';
+              return "";
             },
             path: (node) => node.path,
           },
