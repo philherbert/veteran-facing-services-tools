@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, StaticQuery, graphql } from "gatsby";
+import { Link, StaticQuery } from "gatsby";
 
 /**
  * Sidebar
