@@ -1,5 +1,5 @@
-import React from "react";
-import { Link, StaticQuery } from "gatsby";
+import React from 'react';
+import { Link, StaticQuery } from 'gatsby';
 
 /**
  * Sidebar
@@ -66,7 +66,7 @@ export default function SidebarItems({ items, isSublist = false }) {
             </li>
           );
         }
-        if (item.query === "componentList") {
+        if (item.query === 'componentList') {
           return (
             <li key={item.name}>
               {isSublist && <SidebarItem item={item} />}

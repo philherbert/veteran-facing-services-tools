@@ -1,7 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Helmet from "react-helmet";
-import { StaticQuery } from "gatsby";
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
+import { StaticQuery } from 'gatsby';
 
 const detailsQuery = `
   query DefaultSEOQuery {
@@ -30,37 +30,37 @@ function SEO({ description, lang, meta, keywords, title }) {
             titleTemplate={`%s | ${data.site.siteMetadata.title}`}
             meta={[
               {
-                name: "description",
+                name: 'description',
                 content: metaDescription,
               },
               {
-                name: "docsearch:language",
-                content: "en",
+                name: 'docsearch:language',
+                content: 'en',
               },
               {
-                name: "docsearch:version",
-                content: "1.0.0",
+                name: 'docsearch:version',
+                content: '1.0.0',
               },
               {
-                property: "og:title",
+                property: 'og:title',
                 content: title,
               },
               {
-                property: "og:description",
+                property: 'og:description',
                 content: metaDescription,
               },
               {
-                property: "og:type",
-                content: "website",
+                property: 'og:type',
+                content: 'website',
               },
             ]
               .concat(
                 keywords.length > 0
                   ? {
-                      name: "keywords",
-                      content: keywords.join(", "),
+                      name: 'keywords',
+                      content: keywords.join(', '),
                     }
-                  : []
+                  : [],
               )
               .concat(meta)}
           />
@@ -71,7 +71,7 @@ function SEO({ description, lang, meta, keywords, title }) {
 }
 
 SEO.defaultProps = {
-  lang: "en",
+  lang: 'en',
   meta: [],
   keywords: [],
 };

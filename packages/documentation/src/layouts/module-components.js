@@ -1,11 +1,11 @@
-import React, { Component } from "react";
-import MDXRenderer from "gatsby-mdx/mdx-renderer";
-import { MDXProvider } from "@mdx-js/tag";
-import { LiveProvider, LiveEditor } from "react-live";
+import React, { Component } from 'react';
+import MDXRenderer from 'gatsby-mdx/mdx-renderer';
+import { MDXProvider } from '@mdx-js/tag';
+import { LiveProvider, LiveEditor } from 'react-live';
 
-import SidebarLayout from "./SidebarLayout";
-import PropsTable from "../components/propstable";
-import "./module-components.scss";
+import SidebarLayout from './SidebarLayout';
+import PropsTable from '../components/propstable';
+import './module-components.scss';
 
 const MyCodeComponent = ({ children }) => (
   <LiveProvider code={children}>
@@ -33,7 +33,7 @@ export default class ModuleComponentsLayout extends Component {
     // Window is not available during build, so this was added deal with making
     // window available to some components.
     // Tried to add it to componentDidMount but it didn't work correctly.
-    if (typeof window !== "undefined") {
+    if (typeof window !== 'undefined') {
       window.dataLayer = [];
       window.VetsGov = {};
     }
@@ -58,7 +58,7 @@ export default class ModuleComponentsLayout extends Component {
             <MDXRenderer tableOfContents={tableOfContents}>
               {mdxCodeBlock}
             </MDXRenderer>
-            <h2 style={{ marginTop: "2rem" }}>Props:</h2>
+            <h2 style={{ marginTop: '2rem' }}>Props:</h2>
             <PropsTable propMetaData={this.sortedReqiuredProps()} />
           </div>
         </SidebarLayout>
