@@ -91,7 +91,6 @@ module.exports = {
         plugins: [],
       },
     },
-    `github-api-pages`,
     `mdx-pages`,
     {
       resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
