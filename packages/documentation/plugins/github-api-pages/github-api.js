@@ -98,8 +98,8 @@ const getPageAndCreateNode = async ({ owner, repo, dir }, createNode) => {
         .digest('hex'),
       mediaType: 'text/markdown',
       content: text,
-      // directory: path.dirname(dir),
-      // name: path.basename(dir, '.md'),
+      directory: path.dirname(dir),
+      name: path.basename(dir, '.md'),
     },
   });
 };
