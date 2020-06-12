@@ -43,7 +43,7 @@
   ],
   "license": "MIT",
   "resolutions": {
-    "graphql": "14.1.1"
+    "graphql": "14.3.0"
   },
   "scripts": {
     "build": "if [ -z \"$GITHUB_API_KEY\" ]; then echo \"No API key, skipping doc build\"; else gatsby build; fi",
