@@ -16,7 +16,7 @@ module.exports = {
         name: 'va.gov-team',
         remote:
           'https://github.com/department-of-veterans-affairs/va.gov-team.git',
-        branch: 'master',
+        branch: 'theodur-patch-1',
         patterns: 'platform/working-with-vsp/**',
       },
     },
