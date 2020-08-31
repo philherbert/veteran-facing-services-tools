@@ -324,7 +324,63 @@ module.exports = {
       name: 'Backend',
       href: '/backend',
       indexmdx: true,
-      items: [],
+      items: [
+        {
+          name: 'Onboarding',
+          items: [
+            {
+              name: 'Onboarding resources',
+              href: '/backend/onboarding',
+            },
+          ],
+        },
+        {
+          name: 'Setup',
+          items: [
+            {
+              name: 'Setting up your development environment',
+              href: '/backend/setup',
+            },
+          ],
+        },
+        {
+          name: 'Development',
+          items: [
+            {
+              name: 'Development process and documentation',
+              href: '/backend/development',
+            },
+          ],
+        },
+        {
+          name: 'Testing',
+          items: [
+            {
+              name: 'Testing tools and procedures',
+              href: '/backend/testing',
+            },
+          ],
+        },
+        {
+          name: 'Deployment',
+          items: [
+            {
+              name: 'Deployment resources',
+              href: '/backend/deployment',
+            },
+          ],
+        },
+        {
+          name: 'Monitoring',
+          items: [
+            {
+              name: 'Monitoring resources',
+              href: '/backend/monitoring',
+            },
+          ],
+        },
+
+      ],
     },
     {
       id: 'documentation',
