@@ -25,8 +25,12 @@ export default function Index({ location }) {
             <Link to="/forms">Forms</Link> section.
           </li>
           <li>
-            For all other information about the VFS platform, visit the{' '}
+            For all other information about front-end development on the VFS platform, visit the{' '}
             <Link to="/platform">Platform</Link> section.
+          </li>
+          <li>
+            For all other information about back-end development on the VFS platform, visit the{' '}
+            <Link to="/backend">Backend</Link> section.
           </li>
           <li>
             For info about writing documentation on this site, see the{' '}

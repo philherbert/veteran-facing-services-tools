@@ -320,6 +320,13 @@ module.exports = {
       ],
     },
     {
+      id: 'backend',
+      name: 'Backend',
+      href: '/backend',
+      indexmdx: true,
+      items: [],
+    },
+    {
       id: 'documentation',
       name: 'Documentation guide',
       href: '/documentation-guide',
