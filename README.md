@@ -40,7 +40,7 @@ To run the application locally,
 
  - Run `cd packages/documentation` to navigate to the Gatsby app
  - Run `yarn develop` to run the Gatsby app locally
-
+ - The application should be available at `http://localhost:8000/`
 ## Updating formation and formation-react
 
 The process for updating formation and formation-react can be found at [https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/getting-started/common-tasks/updating-formation](https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/getting-started/common-tasks/updating-formation)
