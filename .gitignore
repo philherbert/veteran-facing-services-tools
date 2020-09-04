@@ -16,3 +16,4 @@ packages/formation-react/*.js
 public/dist
 yarn-error.log
 .env
+*.old

@@ -7,19 +7,6 @@ module.exports = {
       indexmdx: true,
       items: [
         {
-          name: 'Start up guide',
-          items: [
-            {
-              name: '1. Set up VA.gov locally',
-              href: '/getting-started',
-            },
-            {
-              name: '2. Access internal tools',
-              href: '/getting-started/internal-tools',
-            },
-          ],
-        },
-        {
           name: 'VA.gov workflow',
           items: [
             {
@@ -98,222 +85,76 @@ module.exports = {
       ],
     },
     {
-      id: 'visual-design',
-      name: 'Visual design',
-      href: '/visual-design',
+      id: 'frontend',
+      name: 'Frontend',
+      href: '/frontend',
       indexmdx: true,
       items: [
         {
-          name: 'Formation components',
-          query: 'componentList',
-        },
-      ],
-    },
-    {
-      id: 'forms',
-      name: 'Forms',
-      href: '/forms',
-      indexmdx: true,
-      items: [
-        {
-          name: 'Tutorial',
+          name: 'Startup Guide',
           items: [
             {
-              name: '1. Basic',
-              href: '/forms/form-tutorial-basic',
+              name: 'Setup VA.gov locally',
+              href: '/startup-guide/setup-va-gov',
             },
             {
-              name: '2. Intermediate',
-              href: '/forms/form-tutorial-intermediate',
-            },
-            {
-              name: '3. Advanced',
-              href: '/forms/form-tutorial-advanced',
-            },
-            {
-              name: '4. Setting up Save in Progress',
-              href: '/forms/save-in-progress',
-            },
-            {
-              name: '5. Using the Save in Progress menu',
-              href: '/forms/save-in-progress-menu',
-            },
-            {
-              name: '6. Forms in production',
-              href: '/forms/forms-in-production',
+              name: 'Access internal tools',
+              href: '/startup-guide/access-internal-tools',
             },
           ],
         },
         {
-          name: 'Documentation',
+          name: 'Forms',
           items: [
             {
-              name: 'About the schema and uiSchema objects',
-              href: '/forms/about-the-schema-and-uischema-objects',
+              name: 'Overview',
+              href: '/forms/forms-overview',
             },
             {
-              name: 'Available widgets',
-              href: '/forms/available-widgets',
+              name: 'Tutorial',
+              href: '/forms/tutorial',
             },
             {
-              name: 'Common patterns',
-              href: '/forms/common-patterns-for-building-forms',
-            },
-            {
-              name: 'Config options',
-              href: '/forms/config-options',
-            },
-            {
-              name: 'Component hierarchy',
-              href: '/forms/component-hierarchy',
-            },
-            {
-              name: 'Creating a form config file',
-              href: '/forms/creating-a-form-config-file',
-            },
-            {
-              name: 'Creating custom fields and widgets',
-              href: '/forms/creating-custom-fields-and-widgets',
-            },
-            {
-              name: 'Form features and usage guidelines',
-              href: '/forms/available-features-and-usage-guidelines',
-            },
-            {
-              name: 'Using available fields',
-              href: '/forms/using-available-fields',
-            },
-          ],
-        },
-      ],
-    },
-    {
-      id: 'platform',
-      name: 'Platform',
-      href: '/platform',
-      indexmdx: true,
-      items: [
-        {
-          name: 'Site structure',
-          items: [
-            {
-              name: 'Client overview',
-              href: '/platform/site-structure/client-overview',
-            },
-            {
-              name: 'VA.gov environments',
-              href: '/platform/site-structure/environments',
-              indexmdx: true,
-            },
-            {
-              name: 'Bundles and code organization',
-              href: '/platform/site-structure/bundles-and-code-organization',
-            },
-            {
-              name: 'Styling',
-              href: '/platform/site-structure/styling-overview',
-            },
-            {
-              name: 'Page and application Javascript structure',
-              href: '/platform/site-structure/application-structure',
+              name: 'Documentation',
+              href: '/forms/documentation',
             },
           ],
         },
         {
-          name: 'Architecture',
+          name: 'Platform',
           items: [
             {
-              name: 'Metalsmith static site',
-              href: '/platform/architecture/static-site',
-              indexmdx: true,
-              items: [
-                {
-                  name: 'How are URLs created',
-                  href: '/platform/architecture/static-site/urls',
-                },
-                {
-                  name: 'How templates work',
-                  href: '/platform/architecture/static-site/templates',
-                },
-                {
-                  name: 'How to create collections and related links',
-                  href: '/platform/architecture/static-site/collections',
-                },
-              ],
+              name: 'Overview',
+              href: '/platform/platform-overview',
             },
             {
-              name: 'CMS overview',
-              href: '/platform/architecture/cms',
+              name: 'Site structure',
+              href: '/platform/site-structure',
             },
             {
-              name: 'Continuous integration and deployment flows',
-              href: '/platform/architecture/build-deploy-flows',
+              name: 'Architecture',
+              href: '/platform/architecture',
             },
             {
-              name: 'Teamsite',
-              href: '/platform/architecture/teamsite',
+              name: 'Frontend standards',
+              href: '/platform/front-end-standards',
             },
             {
-              name: 'How do end-to-end tests work?',
+              name: 'Tools',
+              href: '/platform/tools',
             },
           ],
         },
         {
-          name: 'Front End Standards',
+          name: 'Visual Design',
           items: [
             {
-              name: 'React standards',
-              href: '/platform/front-end-standards/react',
+              name: 'Overview',
+              href: '/visual-design/visual-design-overview',
             },
             {
-              name: 'Redux standards',
-              href: '/platform/front-end-standards/redux',
-            },
-            {
-              name: 'Styles',
-              href: '/platform/front-end-standards/styles',
-            },
-            {
-              name: 'Accessibility',
-              href: '/platform/front-end-standards/accessibility',
-            },
-            {
-              name: 'Security',
-              href: '/platform/front-end-standards/security',
-            },
-            {
-              name: 'Unit testing',
-              href: '/platform/unit-testing',
-            },
-            {
-              name: 'Automated code quality',
-              href: '/platform/front-end-standards/manual-reviews',
-            },
-            {
-              name: 'Documented Decisions',
-              href:
-                '/platform/front-end-standards/documented-decisions/summary',
-            },
-          ],
-        },
-        {
-          name: 'Tools',
-          items: [
-            {
-              name: 'Visual regression testing',
-              href: '/platform/tools/visual-regression-testing',
-            },
-            {
-              name: 'Feature toggles',
-              href: '/platform/tools/feature-toggles',
-            },
-            {
-              name: 'Downtime notifications',
-              href: '/platform/tools/downtime-notifications',
-            },
-            {
-              name: 'Application generator',
-              href: '/platform/tools/generator',
+              name: 'Formation components',
+              href: '/visual-design/formation-components',
             },
           ],
         },
@@ -380,6 +221,15 @@ module.exports = {
           ],
         },
 
+      ],
+    },
+    {
+      id: 'operations',
+      name: 'Operations',
+      href: '/operations',
+      indexmdx: true,
+      items: [
+        
       ],
     },
     {
