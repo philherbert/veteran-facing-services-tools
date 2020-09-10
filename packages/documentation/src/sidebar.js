@@ -28,6 +28,45 @@ module.exports = {
           ],
         },
         {
+          name: 'Main repositories',
+          items: [
+            {
+              name: 'Docs',
+              href: 'https://github.com/department-of-veterans-affairs/va.gov-team',
+            },
+            {
+              name: 'Backend source',
+              href: 'https://github.com/department-of-veterans-affairs/vets-api',
+            },
+            {
+              name: 'Frontend source',
+              href: 'https://github.com/department-of-veterans-affairs/vets-website',
+            },
+          ],
+        },
+        {
+          name: 'Slack',
+          items: [
+            {
+              name: 'Overview',
+              href: '/getting-started/slack/slack-overview',
+            },
+          ],
+        },
+        {
+          name: 'Github',
+          items: [
+            {
+              name: 'Repositories',
+              href: '/getting-started/github/github-repositories',
+            },
+            {
+              name: 'Links',
+              href: '/getting-started/github/github-links',
+            },
+          ],
+        },
+        {
           name: 'Common tasks',
           items: [
             {
@@ -229,7 +268,100 @@ module.exports = {
       href: '/operations',
       indexmdx: true,
       items: [
-        
+        {
+          name: 'Hosting Architecture',
+          items: [
+            {
+              name: 'Overview',
+              href: '/operations/architecture-overview',
+            },
+            {
+              name: 'AWS networks',
+              href: '/operations/aws-networks',
+            },
+            {
+              name: 'Website proxy',
+              href: '/operations/website-proxy',
+            },
+          ],
+        },
+        {
+          name: 'Environment / Tools setup',
+          items: [
+            {
+              name: 'SOCKS',
+              href: '/operations/socks',
+            },
+            {
+              name: 'PagerDuty',
+              href: '/operations/pager-duty',
+            },
+            {
+              name: 'AWS',
+              href: '/operations/aws',
+            },
+          ],
+        },
+        {
+          name: 'On-call / Operational basics',
+          items: [
+            {
+              name: 'Incident response',
+              href: '/operations/incident-response',
+            },
+            {
+              name: 'Alert descriptions',
+              href: '/operations/alert-descriptions',
+            },
+            {
+              name: 'Postmortems',
+              href: '/operations/postmortems',
+            },
+          ],
+        },
+        {
+          name: 'Configuration management',
+          items: [
+            {
+              name: 'Terraform',
+              href: '/operations/terraform',
+            },
+            {
+              name: 'BRD',
+              href: '/operations/brd',
+            },
+            {
+              name: 'Jenkins',
+              href: '/operations/jenkins',
+            },
+          ],
+        },
+        {
+          name: 'Tools',
+          items: [
+            {
+              name: 'Sentry',
+              href: '/operations/sentry',
+            },
+            {
+              name: 'Grafana',
+              href: '/operations/grafana',
+            },
+            {
+              name: 'Prometheus',
+              href: '/operations/prometheus',
+            },
+          ],
+        },
+        {
+          name: 'External service integrations',
+          items: [
+            {
+              name: 'Adding a new integration',
+              href: '/operations/adding-a-new-integration',
+            },
+          ],
+        },
       ],
     },
     {
