@@ -1,29 +1,21 @@
 module.exports = {
   sections: [
     {
-      id: 'getting-started',
-      name: 'Getting started',
-      href: '/getting-started',
+      id: 'platform-101',
+      name: 'Platform 101',
+      href: '/platform-101',
       indexmdx: true,
       items: [
         {
-          name: 'VA.gov workflow',
+          name: 'Overview',
           items: [
             {
-              name: 'Overview',
-              href: '/getting-started/workflow/overview',
+              name: 'What we do',
+              href: '/platform-101',
             },
             {
-              name: 'Write',
-              href: '/getting-started/workflow/write',
-            },
-            {
-              name: 'Review',
-              href: '/getting-started/workflow/review',
-            },
-            {
-              name: 'Deploy',
-              href: '/getting-started/workflow/deploy',
+              name: 'Who we are',
+               href: 'https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/orientation/Welcome%20to%20VSP.md',
             },
           ],
         },
@@ -45,11 +37,32 @@ module.exports = {
           ],
         },
         {
+          name: 'Our stack',
+          items: [
+            {
+              name: 'Frontend',
+              href: 'https://github.com/department-of-veterans-affairs/va.gov-team',
+            },
+            {
+              name: 'Content',
+              href: 'https://github.com/department-of-veterans-affairs/vets-api',
+            },
+            {
+              name: 'Content Integration',
+              href: 'https://github.com/department-of-veterans-affairs/vets-website',
+            },
+            {
+              name: 'Backend',
+              href: 'https://github.com/department-of-veterans-affairs/vets-website',
+            },
+          ],
+        },
+        {
           name: 'Slack',
           items: [
             {
               name: 'Overview',
-              href: '/getting-started/slack/slack-overview',
+              href: '/platform-101/slack/slack-overview',
             },
           ],
         },
@@ -58,66 +71,11 @@ module.exports = {
           items: [
             {
               name: 'Repositories',
-              href: '/getting-started/github/github-repositories',
+              href: '/platform-101/github/github-repositories',
             },
             {
               name: 'Links',
-              href: '/getting-started/github/github-links',
-            },
-          ],
-        },
-        {
-          name: 'Common tasks',
-          items: [
-            {
-              name: 'Run and build VA.gov',
-              href: '/getting-started/common-tasks/run-build',
-            },
-            {
-              name: 'Running tests',
-              href: '/getting-started/common-tasks/test',
-            },
-            {
-              name: 'Debugging tests',
-              href: '/getting-started/common-tasks/debugging-tests',
-            },
-            {
-              name: 'Adding a new feature to VA.gov',
-              href: '/getting-started/common-tasks/new-feature',
-              items: [
-                {
-                  name: 'Applications',
-                  href: '/getting-started/common-tasks/new-application',
-                },
-                {
-                  name: 'Widgets',
-                  href: '/getting-started/common-tasks/new-widget',
-                },
-                {
-                  name: 'Content pages',
-                  href: '/getting-started/common-tasks/new-page',
-                },
-                {
-                  name: 'Analytics',
-                  href: '/getting-started/common-tasks/analytics',
-                },
-              ],
-            },
-            {
-              name: 'Writing a unit test',
-              href: '/getting-started/common-tasks/new-unit-test',
-            },
-            {
-              name: 'Writing an end-to-end test',
-              href: '/getting-started/common-tasks/new-end-to-end-test',
-            },
-            {
-              name: 'Updating Formation',
-              href: '/getting-started/common-tasks/updating-formation',
-            },
-            {
-              name: 'URL Routing',
-              href: '/getting-started/common-tasks/routing',
+              href: '/platform-101/github/github-links',
             },
           ],
         },
@@ -130,57 +88,80 @@ module.exports = {
       indexmdx: true,
       items: [
         {
-          name: 'Startup Guide',
+          name: 'Getting started',
           items: [
             {
-              name: 'Setup VA.gov locally',
-              href: '/startup-guide/setup-va-gov',
+              name: 'Startup guide',
+              items: [
+                {
+                  name: 'Set up VA.gov locally',
+                  href: '/frontend/getting-started',
+                },
+                {
+                  name: 'Access internal tools',
+                  href: 'https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/internal-tools.md',
+                },
+              ],
             },
             {
-              name: 'Access internal tools',
-              href: '/startup-guide/access-internal-tools',
-            },
-          ],
-        },
-        {
-          name: 'Forms',
-          items: [
-            {
-              name: 'Overview',
-              href: '/forms/forms-overview',
-            },
-            {
-              name: 'Tutorial',
-              href: '/forms/tutorial',
-            },
-            {
-              name: 'Documentation',
-              href: '/forms/documentation',
-            },
-          ],
-        },
-        {
-          name: 'Platform',
-          items: [
-            {
-              name: 'Overview',
-              href: '/platform/platform-overview',
+              name: 'VA.gov workflow',
+              items: [
+                {
+                  name: 'Overview',
+                  href: '/frontend/getting-started/workflow/workflow-overview',
+                },
+                {
+                  name: 'Write',
+                  href: '/frontend/getting-started/workflow/write',
+                },
+                {
+                  name: 'Review',
+                  href: '/frontend/getting-started/workflow/review',
+                },
+                {
+                  name: 'Deploy',
+                  href: '/frontend/getting-started/workflow/deploy',
+                },
+              ],
             },
             {
-              name: 'Site structure',
-              href: '/platform/site-structure',
-            },
-            {
-              name: 'Architecture',
-              href: '/platform/architecture',
-            },
-            {
-              name: 'Frontend standards',
-              href: '/platform/front-end-standards',
-            },
-            {
-              name: 'Tools',
-              href: '/platform/tools',
+              name: 'Common tasks',
+              items: [
+                {
+                  name: 'Run and build VA.gov',
+                  href: '/frontend/getting-started/common-tasks/run-build',
+                },
+                {
+                  name: 'Running tests',
+                  href: '/frontend/getting-started/common-tasks/test',
+                },
+                {
+                  name: 'Debugging tests',
+                  href: '/frontend/getting-started/common-tasks/debugging-tests',
+                },
+                {
+                  name: 'Adding a new feature to VA.gov',
+                  href: '/frontend/getting-started/common-tasks/new-feature',
+                  items: [
+                    {
+                      name: 'Applications',
+                      href: '/frontend/getting-started/common-tasks/new-application',
+                    },
+                    {
+                      name: 'Widgets',
+                      href: '/frontend/getting-started/common-tasks/new-widget',
+                    },
+                    {
+                      name: 'Content pages',
+                      href: '/frontend/getting-started/common-tasks/new-page',
+                    },
+                    {
+                      name: 'Analytics',
+                      href: '/frontend/getting-started/common-tasks/analytics',
+                    },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -189,14 +170,218 @@ module.exports = {
           items: [
             {
               name: 'Overview',
-              href: '/visual-design/visual-design-overview',
+              href: '/frontend/visual-design/visual-design-overview',
             },
             {
               name: 'Formation components',
-              href: '/visual-design/formation-components',
+              query: 'componentList',
             },
           ],
         },
+        {
+          name: 'Forms',
+          items: [
+            {
+              name: 'Tutorial',
+              items: [
+                {
+                  name: '1. Basic',
+                  href: '/frontend/forms/form-tutorial-basic',
+                },
+                {
+                  name: '2. Intermediate',
+                  href: '/frontend/forms/form-tutorial-intermediate',
+                },
+                {
+                  name: '3. Advanced',
+                  href: '/frontend/forms/form-tutorial-advanced',
+                },
+                {
+                  name: '4. Setting up Save in Progress',
+                  href: '/frontend/forms/save-in-progress',
+                },
+                {
+                  name: '5. Using the Save in Progress menu',
+                  href: '/frontend/forms/save-in-progress-menu',
+                },
+                {
+                  name: '6. Forms in production',
+                  href: '/frontend/forms/forms-in-production',
+                },
+              ],
+            },
+            {
+              name: 'Documentation',
+              items: [
+                {
+                  name: 'About the schema and uiSchema objects',
+                  href: '/frontend/forms/about-the-schema-and-uischema-objects',
+                },
+                {
+                  name: 'Available widgets',
+                  href: '/frontend/forms/available-widgets',
+                },
+                {
+                  name: 'Common patterns',
+                  href: '/frontend/forms/common-patterns-for-building-forms',
+                },
+                {
+                  name: 'Config options',
+                  href: '/frontend/forms/config-options',
+                },
+                {
+                  name: 'Component hierarchy',
+                  href: '/frontend/forms/component-hierarchy',
+                },
+                {
+                  name: 'Creating a form config file',
+                  href: '/frontend/forms/creating-a-form-config-file',
+                },
+                {
+                  name: 'Creating custom fields and widgets',
+                  href: '/frontend/forms/creating-custom-fields-and-widgets',
+                },
+                {
+                  name: 'Form features and usage guidelines',
+                  href: '/frontend/forms/available-features-and-usage-guidelines',
+                },
+                {
+                  name: 'Using available fields',
+                  href: '/frontend/forms/using-available-fields',
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: 'Platform',
+          items: [
+            {
+              name: 'Site structure',
+              items: [
+                {
+                  name: 'Client overview',
+                  href: '/frontend/platform/site-structure/client-overview',
+                },
+                {
+                  name: 'VA.gov environments',
+                  href: '/frontend/platform/site-structure/environments',
+                  indexmdx: true,
+                },
+                {
+                  name: 'Bundles and code organization',
+                  href: '/frontend/platform/site-structure/bundles-and-code-organization',
+                },
+                {
+                  name: 'Styling',
+                  href: '/frontend/platform/site-structure/styling-overview',
+                },
+                {
+                  name: 'Page and application Javascript structure',
+                  href: '/frontend/platform/site-structure/application-structure',
+                },
+              ],
+            },
+            {
+              name: 'Architecture',
+              items: [
+                {
+                  name: 'Metalsmith static site',
+                  href: '/frontend/platform/architecture/static-site',
+                  indexmdx: true,
+                  items: [
+                    {
+                      name: 'How are URLs created',
+                      href: '/frontend/platform/architecture/static-site/urls',
+                    },
+                    {
+                      name: 'How templates work',
+                      href: '/frontend/platform/architecture/static-site/templates',
+                    },
+                    {
+                      name: 'How to create collections and related links',
+                      href: '/frontend/platform/architecture/static-site/collections',
+                    },
+                  ],
+                },
+                {
+                  name: 'CMS overview',
+                  href: '/frontend/platform/architecture/cms',
+                },
+                {
+                  name: 'Continuous integration and deployment flows',
+                  href: '/frontend/platform/architecture/build-deploy-flows',
+                },
+                {
+                  name: 'Teamsite',
+                  href: '/frontend/platform/architecture/teamsite',
+                },
+                {
+                  name: 'How do end-to-end tests work?',
+                },
+              ],
+            },
+            {
+              name: 'Front End Standards',
+              items: [
+                {
+                  name: 'React standards',
+                  href: '/frontend/platform/front-end-standards/react',
+                },
+                {
+                  name: 'Redux standards',
+                  href: '/frontend/platform/front-end-standards/redux',
+                },
+                {
+                  name: 'Styles',
+                  href: '/frontend/platform/front-end-standards/styles',
+                },
+                {
+                  name: 'Accessibility',
+                  href: '/frontend/platform/front-end-standards/accessibility',
+                },
+                {
+                  name: 'Security',
+                  href: '/frontend/platform/front-end-standards/security',
+                },
+                {
+                  name: 'Unit testing',
+                  href: '/frontend/platform/unit-testing',
+                },
+                {
+                  name: 'Automated code quality',
+                  href: '/frontend/platform/front-end-standards/manual-reviews',
+                },
+                {
+                  name: 'Documented Decisions',
+                  href: '/frontend/platform/front-end-standards/documented-decisions/summary',
+                },
+              ],
+            },
+            {
+              name: 'Tools',
+              items: [
+                {
+                  name: 'Visual regression testing',
+                  href: '/frontend/platform/tools/visual-regression-testing',
+                },
+                {
+                  name: 'Feature toggles',
+                  href: '/frontend/platform/tools/feature-toggles',
+                },
+                {
+                  name: 'Downtime notifications',
+                  href: '/frontend/platform/tools/downtime-notifications',
+                },
+                {
+                  name: 'Application generator',
+                  href: '/frontend/platform/tools/generator',
+                },
+              ],
+            },
+          ],
+        },
+        
       ],
     },
     {
@@ -263,133 +448,29 @@ module.exports = {
       ],
     },
     {
-      id: 'operations',
-      name: 'Operations',
-      href: '/operations',
+      id: 'faq',
+      name: 'FAQ',
+      href: '/faq',
       indexmdx: true,
       items: [
         {
-          name: 'Hosting Architecture',
+          name: 'FAQ',
           items: [
             {
-              name: 'Overview',
-              href: '/operations/architecture-overview',
+              name: 'Question 1',
+              href: '/faq',
             },
             {
-              name: 'AWS networks',
-              href: '/operations/aws-networks',
+              name: 'Question 2',
+              href: '/faq',
             },
             {
-              name: 'Website proxy',
-              href: '/operations/website-proxy',
+              name: 'Question 3',
+              href: '/faq',
             },
           ],
         },
-        {
-          name: 'Environment / Tools setup',
-          items: [
-            {
-              name: 'SOCKS',
-              href: '/operations/socks',
-            },
-            {
-              name: 'PagerDuty',
-              href: '/operations/pager-duty',
-            },
-            {
-              name: 'AWS',
-              href: '/operations/aws',
-            },
-          ],
-        },
-        {
-          name: 'On-call / Operational basics',
-          items: [
-            {
-              name: 'Incident response',
-              href: '/operations/incident-response',
-            },
-            {
-              name: 'Alert descriptions',
-              href: '/operations/alert-descriptions',
-            },
-            {
-              name: 'Postmortems',
-              href: '/operations/postmortems',
-            },
-          ],
-        },
-        {
-          name: 'Configuration management',
-          items: [
-            {
-              name: 'Terraform',
-              href: '/operations/terraform',
-            },
-            {
-              name: 'BRD',
-              href: '/operations/brd',
-            },
-            {
-              name: 'Jenkins',
-              href: '/operations/jenkins',
-            },
-          ],
-        },
-        {
-          name: 'Tools',
-          items: [
-            {
-              name: 'Sentry',
-              href: '/operations/sentry',
-            },
-            {
-              name: 'Grafana',
-              href: '/operations/grafana',
-            },
-            {
-              name: 'Prometheus',
-              href: '/operations/prometheus',
-            },
-          ],
-        },
-        {
-          name: 'External service integrations',
-          items: [
-            {
-              name: 'Adding a new integration',
-              href: '/operations/adding-a-new-integration',
-            },
-          ],
-        },
-      ],
-    },
-    {
-      id: 'documentation',
-      name: 'Documentation guide',
-      href: '/documentation-guide',
-      indexmdx: true,
-      items: [
-        {
-          name: 'Documentation style guide',
-          href: '/documentation-guide/documentation-style-guide',
-        },
-        {
-          name: 'Adding new pages to this site',
-          href: '/documentation-guide/doc-page',
-        },
-        {
-          name: 'Adding pages from Github to this site',
-          href: '/documentation-guide/external-doc-page',
-        },
-        {
-          name: 'Add graphs to MDX',
-          href: '/documentation-guide/add-graphs-to-mdx',
-        },
-        {
-          name: 'Creating a Gatsby plugin',
-          href: '/documentation-guide/creating-gatsby-plugins',
-        },
+
       ],
     },
   ],
