@@ -7,34 +7,24 @@ export default function Index({ location }) {
     <Layout location={location}>
       <div className="site-l-wrapper">
         <p>
-          Welcome! This site will help you get set up to work on the front end
-          of VA.gov.
+          Welcome! This site will help you get setup to develop on the platform for VA.gov.
         </p>
         <ul>
           <li>
-            If you're looking to get your environment set up, visit our{' '}
-            <Link to="/getting-started">Getting started</Link> section.
+            For information about the platform, visit the{' '}
+            <Link to="/platform-101">Platform 101</Link> section.
           </li>
           <li>
-            If you're looking to understand how to use our visual styles and
-            components, visit our <Link to="/visual-design">Visual design</Link>{' '}
-            section.
+            For information about the frontend, visit the{' '}
+            <Link to="/frontend">Frontend</Link> section.
           </li>
           <li>
-            For information about building forms on VA.gov, visit the{' '}
-            <Link to="/forms">Forms</Link> section.
-          </li>
-          <li>
-            For all other information about front-end development on the VFS platform, visit the{' '}
-            <Link to="/platform">Platform</Link> section.
-          </li>
-          <li>
-            For all other information about back-end development on the VFS platform, visit the{' '}
+            For information about the backend, visit the{' '}
             <Link to="/backend">Backend</Link> section.
           </li>
           <li>
-            For info about writing documentation on this site, see the{' '}
-            <Link to="/documentation-guide">Documentation guide</Link> section.
+            For frequently asked questions, visit the{' '}
+            <Link to="/faq">FAQ</Link> section.
           </li>
         </ul>
       </div>

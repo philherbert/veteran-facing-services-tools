@@ -58,15 +58,6 @@ module.exports = {
           ],
         },
         {
-          name: 'Slack',
-          items: [
-            {
-              name: 'Overview',
-              href: '/platform-101/slack/slack-overview',
-            },
-          ],
-        },
-        {
           name: 'Github',
           items: [
             {
@@ -76,6 +67,79 @@ module.exports = {
             {
               name: 'Links',
               href: '/platform-101/github/github-links',
+            },
+            {
+              name: 'Guidelines',
+              href: 'https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/orientation/repo-guidelines.md',
+            },
+            {
+              name: 'Norms',
+              href: 'https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/policies-work-norms/README.md',
+            },
+          ],
+        },
+        {
+          name: 'Slack',
+          items: [
+            {
+              name: 'Overview',
+              href: '/platform-101/slack/slack-overview',
+            },
+            {
+              name: 'Requests',
+              href: 'https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/orientation/slack-requests.md',
+            },
+          ],
+        },
+        {
+          name: 'Zenhub',
+          items: [
+            {
+              name: 'Introduction',
+              href: 'https://help.zenhub.com/support/solutions/articles/43000010778-what-is-zenhub-an-intro-to-zenhub-in-github',
+            },
+            {
+              name: 'Onboarding',
+              href: 'https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/orientation/zenhub_onboarding.pdf',
+            },
+          ],
+        },
+
+        {
+          name: 'First steps',
+          items: [
+            {
+              name: 'Engineering onboarding',
+              href: 'https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/backend/engineeringonboarding.md',
+            },
+            {
+              name: 'Getting access to tools',
+              href: 'https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/orientation/request-access-to-tools.md',
+            },
+            {
+              name: 'Product development checklist',
+              href: 'https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/orientation/Product%20Development%20Checklist.md',
+            },
+          ],
+        },
+        {
+          name: 'Policies',
+          items: [
+            {
+              name: 'Code review guidelines',
+              href: 'https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/code_review_guidelines.md',
+            },
+            {
+              name: 'Accessibility',
+              href: 'https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/508-accessibility-best-practices.md',
+            },
+            {
+              name: 'Sensitive documentation guidance',
+              href: 'https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/policies-work-norms/sensitive-guidance.md',
+            },
+            {
+              name: 'Norms for communication',
+              href: 'https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/policies-work-norms/norms-communication.md',
             },
           ],
         },
@@ -394,8 +458,8 @@ module.exports = {
           name: 'Onboarding',
           items: [
             {
-              name: 'Onboarding resources',
-              href: '/backend/onboarding',
+              name: 'Engineering onboarding',
+              href: 'https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/backend/engineeringonboarding.md',
             },
           ],
         },
@@ -404,7 +468,7 @@ module.exports = {
           items: [
             {
               name: 'Setting up your development environment',
-              href: '/backend/setup',
+              href: 'https://github.com/department-of-veterans-affairs/vets-api/blob/master/README.md',
             },
           ],
         },
@@ -413,7 +477,7 @@ module.exports = {
           items: [
             {
               name: 'Development process and documentation',
-              href: '/backend/development',
+              href: 'https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/backend/vets-api/development.md',
             },
           ],
         },
@@ -422,7 +486,7 @@ module.exports = {
           items: [
             {
               name: 'Testing tools and procedures',
-              href: '/backend/testing',
+              href: '',
             },
           ],
         },
@@ -430,8 +494,8 @@ module.exports = {
           name: 'Deployment',
           items: [
             {
-              name: 'Deployment resources',
-              href: '/backend/deployment',
+              name: 'Deployment process',
+              href: 'https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/deployment.md',
             },
           ],
         },
@@ -439,8 +503,8 @@ module.exports = {
           name: 'Monitoring',
           items: [
             {
-              name: 'Monitoring resources',
-              href: '/backend/monitoring',
+              name: 'Internal tools',
+              href: 'https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/internal-tools.md',
             },
           ],
         },
