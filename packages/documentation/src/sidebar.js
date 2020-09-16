@@ -10,12 +10,12 @@ module.exports = {
           name: 'Overview',
           items: [
             {
-              name: 'What we do',
-              href: '/platform-101',
+              name: 'Welcome to VSP',
+               href: 'https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/orientation/Welcome%20to%20VSP.md',
             },
             {
-              name: 'Who we are',
-               href: 'https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/orientation/Welcome%20to%20VSP.md',
+              name: 'What we do',
+              href: '/platform-101',
             },
           ],
         },
@@ -153,6 +153,7 @@ module.exports = {
       items: [
         {
           name: 'Getting started',
+          indexmdx: true,
           items: [
             {
               name: 'Startup guide',

@@ -1,3 +1,130 @@
+# Platform 101
+
+## Welcome to the Veteran-facing Services Platform!
+
+The Veteran-facing Services Platform (VSP) team is here to give you to the tools, systems, and guidance you need to build online experiences on VA.gov that will improve Veteran's lives. As you develop your product, we’ll be your support team helping you through the VA.gov ecosystem, best practices, and processes, including the iterative cycle of ideation and strategy, user testing, launching code, and measuring results.
+
+## What is VA.gov?
+
+The website serving as the single place Veterans can go to find, apply for, track, and manage the benefits they've earned.
+
+## What is a Veteran-facing Services (VFS) team?
+
+You are! Any sprint team building online Veteran-facing experiences is a VFS team.
+
+## What is the VSP?
+
+The VSP is the common infrastructure, technical and non-technical components, and processes that support static and interactive content consumed by Veterans via VA.gov. Major pieces of the VSP include a set of APIs that manage communication between a Veteran user and internal VA resources, an identity and authentication system, the VA.gov Design System, reusable frontend components, a Drupal-based content management system, and an extensive set of documentation and guides.
+
+## How should VFS teams expect to get up and running?
+
+Here's a sample timeline of what you should expect to do as you prepare to start designing / building / iterating in collaboration with VSP.
+
+![](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/orientation/VSP_Onboarding_Timeline.001.png)
+
+## Working in the open
+
+We work in the open and strive to keep as much of our code and other work product in publicly accessible open source repositories. You will have access to our open source (i.e. public) GitHub repository for tracking work and documentation. [Here are some ground rules to make sure you know what _not_ to do when working in a public repo](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/policies-work-norms/sensitive-guidance.md).
+
+## What should VFS Teams expect to do as they design, build, launch, iterate?
+
+Here are materials you should start familiarizing yourself with to help you learn how to create online experiences the VA.gov way, and how to work with VSP as you go.
+
+### Product
+
+Document what you're building, what problem it's solving, what outcomes you hope it achieves, and how you'll measure success. And track the work necessary to actually deliver the solution.
+
+- [Here's how to write a great Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/product-management/product-outline-template.md).
+- Please store your VA.gov Product documentation in the [va.gov-team repo product folders](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products). As of November 2019 we are in the process of copying select legacy documentation from the vets.gov-team repo to supplement va.gov-team; expect to see additional content and updates to links as this work continues through January 2020. 
+- Teams regularly use ZenHub to better organize GitHub issues. [Here's how the VSP team uses ZenHub to manage its work](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/orientation/zenhub_product_management.pdf).
+
+### Design
+
+Create and test visual artifacts that define the features of the solution and that help engineers build out solution in code.
+
+- [Here's how to create great user-centered designs for VA.gov solutions](https://design.va.gov/documentation/designers).
+- You'll need reviews from VSP to help you make sure you're on track! [Here's what to expect, and how to request a design review](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/design/working-with-platform-design-team.md)
+
+### Content
+
+Create content as a part of every online experience - whether it's button labels or full pages of static introductory copy.
+
+- [Here are the best practices on writing great, plain language content on VA.gov](https://design.va.gov/content-style-guide/)
+- You'll need reviews from VSP to help you make sure you're on track! [Here's what to expect, and how to request a content review](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/content/content-review-process.md)
+
+### Information architecture
+
+Determine the most intuitive place for Veterans to access your application, the appropriate URL, placement in navigation, and the cross-linking strategy.
+
+- [Here are the best practices on writing URLs](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/information-architecture/url-guidelines.md).
+- You'll need check ins with VSP to help you make sure you're on track! Reach out to [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support) in Slack to schedule a 1:1 with us so we can decide on your cadence for IA check ins.
+
+### Engineering
+
+In tiny iterative chunks and with robust testing, bring the solution to life through code.
+
+- [Here's how to write great front end code for VA.gov solutions](https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/).
+- [Here's how to write great back end code for VA.gov solutions](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/engineering/backend).
+- You'll need frequent (usually around weekly) code reviews from VSP to hep you make sure you're on track! [Here's what to expect, and how to request a code review](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/code_review_guidelines.md)
+
+<!--### Research-->
+
+### Accessibility
+
+Test incrementally to make sure your solutions works for everyone.
+
+- [Here's how to write and test FE code for 508 Accessibility](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/508-accessibility-best-practices.md).
+- You'll need reviews from VSP to help ensure accessibility of your solutions! [Here's what to expect, and how to request a 508 review](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/508-request-prelaunch-review.md).
+
+### Analytics and insights
+
+Incorporate analytics into your code so that you can track the health of your solution over time and understand whether it's achieving the outcomes you hoped it would.
+
+[Here's how to set KPIs to track the success of your VA.gov solutions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/analytics/kpi-protocol.md).
+
+<!--- [Here's how to incorporate analytics into your VA.gov solutions](/).****This needs a URL****-->
+
+VSP is here to help you as you set up KPIs and integrate analytics in your code. Reach out to [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support) in Slack to schedule a 1:1 with us so we can help, and to schedule an Analytics review.
+
+You'll need reviews from VSP to help you make sure you're on track! [Here's what to expect, and how to request an Analytics review](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/analytics/rules-of-engagement-request-review.md).
+
+<!--### Contact Center-->
+
+### QA
+
+Both manually and through automated tests, ensure your solution is doing what you want it to do.
+
+- [Here's how to QA your solutions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/quality-assurance/how-to-coordinate-qa.md)
+- VSP is here to help you as you test to ensure your solutions are top quality! Reach out to [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support) in Slack to ask questions, or schedule a meeting with us so we can help when you need it.
+
+<!--### Release Planning: Document release phases and the criteria for moving between them. This should include rollout schedule, success/rollback criteria, any pre- and post-launch user testing and monitoring, external documentation and comms. You'll need check ins with VSP to help you make sure you're on track! Reach out to [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support) in Slack to schedule a 1:1 with us so we can review and/or help your write your release plan.-->
+
+### ATO
+
+You'll need to ensure the solution you're building has the authority to operate (ATO).
+
+### Security
+
+Get your solution tested for potential technical security issues / vulnerabilities, focusing particularly on frontend-backend interactions, anything involving certificates or cookies, and any new interactions with dependent backends.
+
+You'll need check ins with VSP to help you make sure you're on track! Reach out to [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support) in Slack to schedule a 1:1 with us so we can schedule a security review.
+
+### Privacy
+
+Get your solution tested to look for potential user data issues, including affirming best practices around handling personally identifiable information.
+
+You'll need check ins with VSP to help you make sure you're on track! Reach out to [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support) in Slack to schedule a 1:1 with us so we can schedule a privacy review.
+
+### Production readiness / infrastructure
+
+Get your technical architecture tested, to look for potential scaling concerns, dependency analysis, SLO assessment.
+
+You'll need check ins with VSP to help you make sure you're on track! Reach out to [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support) in Slack to schedule a 1:1 with us so we can schedule a production readiness / infrastructure review.
+
+---
+
+As always, if you have any questions, the VSP Team is available to help in the [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support) channel in Slack.
+
 ## What We Do
 
 We are actively working on https://va.gov, the user-centered, public-facing website where veterans and their caregivers can find, apply for, track, and manage their benefits in one place.
@@ -6,3 +133,1087 @@ We are actively working on https://va.gov, the user-centered, public-facing webs
 - VSA: [Veteran-facing Services Applications (VSA)](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/vsa#veteran-facing-services-applications-vsa); our team (applications).
 - VSP: [Veteran-facing Services Platform](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/README.md#veteran-facing-services-platform-vsp); the platform team, which includes framework and DevOps.
 - VFS: Veteran Facing Services (consumers of VSP, including VSA).
+
+## Main Repositories
+
+Our work is conducted primarily over public GitHub repositories:
+
+- Docs: https://github.com/department-of-veterans-affairs/va.gov-team
+- Backend source: https://github.com/department-of-veterans-affairs/vets-api
+- Frontend source: https://github.com/department-of-veterans-affairs/vets-website
+
+## Our Stack
+
+We have a React/Redux/Node front end with a Ruby-on-Rails back end, plus static site generation using [Metalsmith](https://metalsmith.io/) to pull content from Drupal CMS and Markdown. All libraries are open source, including VA-specific components and forks.
+
+### Frontend
+
+- React
+- Redux
+- Node.js (_only for scripting and building; S3/CDN for production? Check into this_ ....)
+- Yarn (_for package management_)
+- Metalsmith (for static content generation)
+- Key Libraries:
+  - The [VA<span/>.gov Forms System (VAFS)](https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/forms) built on top of the [VA's fork of RJSF (react-jsonschema-form)](https://github.com/department-of-veterans-affairs/react-jsonschema-form).
+  - Formation: SASS styles and assets for the VA design system ([npm @department-of-veterans-affairs/formation](https://www.npmjs.com/package/@department-of-veterans-affairs/formation)).
+
+### Content
+
+- Drupal CMS
+- Markdown (.md)
+- TeamSite OpenText CMS (for older web pages; migrating to Drupal CMS)
+
+### Content Integration
+
+(Build to extract Drupal and Markdown into static HTML):
+
+- GraphQL: queries to extract data from Drupal
+- Liquid: templates to expand data to HTML
+- Metalsmith Static Site Generator: the content integration build; runs on Node.js
+- TeamSite Integration (legacy): NGIX Web Server, AWS S3 (shared content), PERL
+
+### Backend
+
+- Ruby On Rails
+  - Single, monolithic rails app. Some of the Lighthouse API parts use a "Modular Monolith" (Rails "engines").
+  - Rails MVC for REST APIs,
+  - Sidekiq for scheduled jobs
+  - Gems?
+- PostgreSQL (for some persistence, local app state; but most of the back end talks to other REST services rather than heavy local entity CRUD). Vets-api schema file.
+- PostGIS (GIS/spatial)
+- Redis (in memory; for sidekiq, persist user objects)
+- PDF tk (PDF generation)
+
+## GitHub Repositories
+
+- **GitHub: VA<span/>.gov | Public Repo | VETS-WEBSITE** \
+  https://github.com/department-of-veterans-affairs/vets-website \
+  Frontend Source Code: React.js, HTML
+
+- **GitHub: VA<span/>.gov | Public Repo | VETS-API** \
+  https://github.com/department-of-veterans-affairs/vets-api \
+  Backend Source Code: Ruby/Rails (mostly REST APIs)
+
+- **GitHub: VA<span/>.gov | Public Repo | TEAM Non-Code Docs (VSP, VSA/VSFs)** \
+  https://github.com/department-of-veterans-affairs/va.gov-team \
+  Non-code documentation for VSP, VSA, and VSFs teams. \
+  Note that this repo (va.gov-team) supersedes the “[vets.gov-team](https://github.com/department-of-veterans-affairs/vets.gov-team)” repo. That older repo was made private on January 2020, but most of the content was migrated to this repo.
+
+- **GitHub: VA<span/>.gov | Public Repo | CONTENT (Markdown)** \
+  https://github.com/department-of-veterans-affairs/vagov-content \
+  The VA<span/>.gov content repository (aka VA<span/>.gov Interim CMS) in Markdown (.md) format.
+
+- **GitHub: VA<span/>.gov | Public Repo | CMS Integration** \
+  https://github.com/department-of-veterans-affairs/va.gov-cms \
+  Metalsmith, GraphQL, Drupal, Liquid Templates => build static HTML.
+
+- **GitHub: VA<span/>.gov | Private Repo | TEAM SENSITIVE** \
+  https://github.com/department-of-veterans-affairs/va.gov-team-sensitive
+
+- **GitHub: VA<span/>.gov | Private Repo | DEVOPS** \
+  https://github.com/department-of-veterans-affairs/devops
+
+## GitHub Links
+
+- **GitHub: VA.gov Documentation** \
+  https://department-of-veterans-affairs.github.io/va.gov-team \
+  VSP's knowledge hub (quick links page) for building on VA.gov.
+  Go here first to navigate our documentation.
+
+- **GitHub: VA<span/>.gov | Client App Doc | Main** \
+  https://department-of-veterans-affairs.github.io/veteran-facing-services-tools
+
+- **GitHub: VA<span/>.gov | Client App Doc | Set up Locally** \
+  https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/getting-started \
+  Start here to learn how to set up your local VETS-WEBSITE and VETS-API development environments.
+
+- **GitHub: VA<span/>.gov | Client App Doc | Run Locally** \
+  https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/getting-started/common-tasks/run-build \
+  Continue here to run them locally.
+
+- **GitHub: VA<span/>.gov | Client App Doc | Forms System** \
+  https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/forms \
+  VA<span/>.gov Forms System (VAFS). Uses RJSF (react-jsonschema-form).
+
+- **[GitHub: VA<span/>.gov | Client App Doc | Visual Design** \
+  https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/visual-design) \
+  VA<span/>.gov is built on top of VA's design system (VADS). VADS is based on the [US Web Design System](https://designsystem.digital.gov/). This site covers Formation Components and formation-react.
+
+- **GitHub: VA<span/>.gov | Client App Doc | Platform** \
+  https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/platform \
+  Overview of the platform: MetalSmith, React, Redux, Drupal CMS, TeamSite. Pay attention to the menu/links on the left panel, because it has things such as [content management integration](https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/platform/architecture/cms), [front end standards](https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/platform/front-end-standards/react), [unit testing](https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/platform/unit-testing) (tools/conventions), [build/deploy flow](https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/platform/architecture/build-deploy-flows), [Feature Flags](https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/platform/tools/feature-toggles) (React, Drupal/Metalsmith, Node, Liquid; Release Toggles, Flipper UI) and a history of [documented platform decisions](https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/platform/front-end-standards/documented-decisions/summary) (why/when).
+
+- **GitHub: VA<span/>.gov | Client App Doc | Documentation Guide** \
+  https://department-of-veterans-affairs.github.io/veteran-facing-services-tools/documentation-guide \
+  Meta: technical details on how to update content on the VA<span/>.gov Client Application Documentation site.
+
+- **GitHub: VA<span/>.gov | VSP | Main** \
+  https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/working-with-vsp
+
+- **GitHub: VA<span/>.gov | VSP | Orientation** \
+  https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/working-with-vsp/orientation
+
+- **GitHub: VA<span/>.gov | VSP | How To Update Documentation** \
+  https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/orientation/how-to-collaborate-on-documents.md \
+  If you find issues with VSP documentation, propose corrections using the pull request (PR) process.
+
+- **GitHub: VA<span/>.gov | VSP | Request Access to Internal Tools** \
+  https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/orientation/request-access-to-tools.md \
+  The "[additional orientation steps for developers](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/orientation/request-access-to-tools.md#additional-orientation-steps-for-developers)" section walks you though the request and setup for SOCKS access to Jenkins, Sentry, Prometheus, and Grafana. These DevOps services are hosted on private domains but can be accessed your web browser using an SSH script with the SwitchyOmega Chrome plugin to route web requests from your browser to the SOCKS5 proxy. If you have your PIV background check approved (eQIP adjudication), you may also request access to AWS Console for "troubleshooting, log file review, and to apply changes to the running instances and services" on AWS GovCloud.
+
+- **GitHub: VA<span/>.gov | VSP | Deployment Process** \
+  https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/deployment.md
+
+- **GitHub: VA<span/>.gov | VSP | Review Instances** \
+  https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/backend/review-instances.md#full-application-reviews
+
+- **GitHub: VA<span/>.gov | VSP | Platform Code Review Guidelines** \
+  https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/code_review_guidelines.md \
+  Pull Request (PR) guidelines (required in order to merge to master).
+
+- **GitHub: VA<span/>.gov | VSP | Product Development Request Checklist** \
+  https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/orientation/Product%20Development%20Checklist.md \
+  "All items here must be completed and signed off on by VSP before a new application can launch, and you should start convos about each item early - so you can work on them incrementally and iterate from day one."
+
+- **GitHub: VA<span/>.gov | VSP | Request For Change (RFC)** \
+  https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/engineering/request-for-change \
+  Many of the RFCs do a good job explaining why things are the way they are. How to propose changes: create a RFC, then submit a PR so that it the RFC can be commented on and discussed; after consensus, merge/close.
+
+- **GitHub: VA<span/>.gov | VSP | Quality Assurance** \
+  https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/quality-assurance \
+  ["Unit" Testing](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/quality-assurance/unit-testing) ([Enzyme](https://enzymejs.github.io/enzyme/) integration tests for React components, runs on the unit testing stacks; [e2e Testing](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/quality-assurance/e2e-testing): Nightwatch API with some custom helpers, [Redux Dev Tools Chrome extension](https://github.com/zalmoxisus/redux-devtools-extension). [Load Testing](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/quality-assurance/load-testing): Locust and wrk2. [TestRail](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/quality-assurance/testrail) is the test managment software used for recording evidence of both manual and automated tests (mostly manual for now).
+
+- **GitHub: VA<span/>.gov | VSA | Main** \
+  https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/vsa
+
+- **GitHub: VA<span/>.gov | VSA | Engineering** \
+  https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/vsa/engineering
+
+- **GitHub: VA<span/>.gov | VSA | Engineering | QA Process** \
+  https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/engineering/qa/vsa-qa-process.md
+
+- **GitHub: VA<span/>.gov | VSA | Engineering | Pull Request (PR) Process** \
+  https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/engineering/pull-request-process.md
+
+- **GitHub: VA<span/>.gov | VSA | Engineering | Triage and On-Call Process** \
+  https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/engineering/devops/Triage-Process.md
+
+- **GitHub: VA<span/>.gov | VSA | Orientation** \
+  https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/teams/vsa/orientation
+
+- **GitHub: VA<span/>.gov | VSA | Onboarding | Slack Guidance** \
+  https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/onboarding/vsa-slack-guidance.md
+
+- **GitHub: VA<span/>.gov | Accessibility** \
+  https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/508-accessibility-best-practices.md#automated-accessibility508-testing \
+  The [Nightwatch e2e tests will run axe scans](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/508-accessibility-best-practices.md#build-pipeline-requirements) to enforce Section 508, WCAG2 A and WCAG2 AA compliance; however, to avoid unnecessary churn, developers are expected to procatively run [local scans](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/508-accessibility-best-practices.md#getting-started-with-automation) using [axe](https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd) and [axe-coconut](https://chrome.google.com/webstore/detail/axe-coconut-web-accessibi/iobddmbdndbbbfjopjdgadphaoihpojp) Chrome extensions to identify and resolve [ruleset violations](https://dequeuniversity.com/rules/axe) early on, during coding. (Staging Review requests will be denied if axe scan detects any issues not already disclosed/waived/mitigated in the Known Issues section of the request ticket.) For further guidance, consult the [Testing](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/guidance/testing-by-practice-area.md), [Dev Review](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/accessibility-dev-review-step-by-step.md), [Defect Severity](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/guidance/defect-severity-rubric.md), and [Post-Launch Audit](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/guidance/post-launch-audit-processes.md) accessibility pages.
+
+- **GitHub: VA<span/>.gov | CMS | Create Drupal Account** \
+  https://github.com/department-of-veterans-affairs/va.gov-cms/blob/master/READMES/cms-login.md \
+  Depending on the work that you do, you may need access to the Drupal CMS. To gain access to Drupal, a VA email address and access to the VA network (via CAG or a GFE) is required. Users can log on via CAG with a username and password or a PIV. If you have a VA email and VA network access, follow these instructions to create a Drupal CMS account.
+
+- **GitHub: VA<span/>.gov | Private | DevOps | Config** \
+  https://github.com/department-of-veterans-affairs/devops/tree/master/ansible/deployment/config/vets-api
+
+- **GitHub: VA<span/>.gov | Private | DevOps | External Service Integrations** \
+  https://github.com/department-of-veterans-affairs/devops/tree/master/docs/External%20Service%20Integrations
+  Pages in this area describe integrations between va.gov and external services, including services within the VA and services managed by third parties. These pages are intended for VSP on-call support but are somewhat useful as general summaries for back-end developers and systems integrators as well. Each page contains a general description of a service, how it integrates with va.gov, environment specific details (such as endpoints), required configuration, and--for incident management purposes--troubleshooting steps, escalation procedures, and contact information. The information in these pages are considered system security sensitive, so you'll need access to the VA's private DevOps GitHub repository in order to see them.
+
+- **GitHub: VA<span/>.gov | Private | Team Sensitive | Accessing Staging** \
+  https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Administrative/accessing-staging.md
+
+- **GitHub: VA<span/>.gov | Private | Team Sensitive | VA Systems** \
+  https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/VA-Systems \
+  Backend developer integration to VA services.
+
+## Github Guidelines
+
+## <a id="using"></a>Using the va.gov-team Repo
+Determine where your file should go and how to name them...
+
+- [Where to put your files](#where)
+  - About each area of the this repo
+  - [Public versus private repo](#public-vs-private)
+- [Guidelines for creating and naming files and folders](#naming-guidelines)
+  - [Naming conventions](#naming-conventions)
+  - [Creating new folders](#create-folders)
+  - README.md files
+  - [Uploading large files](#large-files)
+- [Maintaining this repo](#maintainance)
+  - Governance of usage
+  - Archiving files
+- [Questions](#questions)
+
+
+## <a id="where"></a>Where to put your files
+
+### About the /platform, /products and /teams folders
+There are 3 areas of the va.gov-teams repo that you will be working with - `platform`, `products` and `teams`.  
+
+**/platform** <br/>
+This area includes all platform-level products and services that support va.gov product development. 
+- All documentation and artifacts created by the platform teams (VSP teams) that support and help teams working on the platform and va.gov.
+- Examples of content you will find in this area include best practices, how to request reviews with different practice areas, orientation materials for all VFS teams, and documentation on tools and services provided by VSP. 
+- The primary contributor to this area is the VSP team. 
+
+**/product**<br/>
+This area includes documentation on all va.gov user-facing products.  This includes any tool, content page or piece of functionality that a va.gov visitor interacts with directly. 
+- All documentation and artifacts created as part of the product development process should be stored here. 
+- Examples of content/files you will find in this area include product outlines, design comps, content decks, discovery docs, user research files, etc. 
+- The primary contributor to this area are the VFS teams. For historical and tracking purposes, your team must store its project documents in your assigned /products folder.
+
+**/teams**<br/>
+This area includes information on all teams working on the platform.  
+- Teams can utilize this space to manage their teams and workflow.
+- Examples of content/files for this area include team charters, org charts, project planning information, workflow documents, etc. 
+- All teams and team members will contribute to this area. 
+
+We encourage you to browse content in other /products and /teams folders to see how other teams have organized their content or presented their findings.  This is especially important if your team is working on adding a feature to an existing application. You'll want to learn the history of the application by seeing what's happened so far. Your project may be slightly different, so you don't need to exactly copy what other teams have done. Use your best judgement about what works for your project.
+
+## <a id="public-vs-private"></a>Public versus Private
+- All content related to development on VA.gov belongs in the public `va.gov-team repository`. 
+- However, **content that is sensitive to individuals or VA, for privacy and/or security reasons, should be stored in the `va.gov-team-sensitive`** repo.
+- Sensitive content generally includes:
+  - PII and personal contact info
+  - System credentials/test users
+  - Information/issues related to security risks
+  - Postmortems
+  - Vendor selection info
+- [See guidelines on using public versus private repos](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/policies-work-norms/sensitive-guidance.md)
+
+
+## <a id="naming-guidelines"></a>Guidelines for creating and naming folders and files
+
+## <a id="naming-conventions"></a>Folder and file naming conventions
+When  naming a new folder or markdown file in this repo, please adhere to the guidelines below.  This helps to keep our repo file URLs short and readable as well as ensure the repo can be cloned easily without errors. <br/>
+
+*While these are specific to GitHub folders and markdown files, these guidelines are good rules to follow with any file uploaded to the repo as well.*
+
+- lower case words separated by dashes (i.e. "repo-guidelines.md"  not "Repo Guidelines")
+  - The only exception to this rule is the README.md file that should exist in every folder.  This file should be all capital letters for visibility.
+- do not use spaces or special characters (i.e. &, :, %, etc.) in file or folder names
+- omit unnecessary words (i.e. the, a, and, etc.) when it makes sense  (i.e. content-ia versus content-and-ia)
+- If multiple versions of a file exist, name consistently and include versioning info (i.e. date, v1, etc) at the end of the file name
+
+*Bad folder and file structure:*  
+- va.gov-team/Products/Burials & Memorials /Phase 1 mtg notes & next steps.md
+- Creates a URL that looks like this: https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/Products%20/Burials%20&amp%20Memorials/Phase%201%201%20mtg%20notes%20%amp%20next%20steps.md
+
+*Good folder and file structure:* 
+- va.gov-team/products/burials-memorials/mtg-notes-phase-1-09042019.md
+- Creates a good URL: https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/burials-memorials/mtg-notes-phase-1-09042019.md 
+
+**Tips for naming files**
+- Name your files so that they are easily findable in a list and make sense to anyone who may be looking for them.  Include key descriptive words. 
+- Be consistent when naming files that are similar types and use dates or version info to make unique - i.e. all research notes are named "research-notes-participant-1.md"
+- Consider how the files may sort within a long list - do you want to see similar types of files together, or do you want to see them by date?
+  - Start broad and end with specifics to group similar things together - i.e. mtg-notes-retro-20190901.md
+  - Start with a date to order things chronologically - i.e. 20190901-retro-notes.md
+- When using dates in your file name, best practice is to use YYYYMMDD format for chronological sorting. 
+  
+
+## <a id="create-folders"></a>When to create child folders
+When you are managing and organizing your files, you may be tempted to create sub-folders for every different type of file you have in order to sort and organize them.  Sometimes this can be a good solution, but it can also create a situation where content is more difficult to find.  
+
+***If you feel you need a new folder directly below /platform, /products/ or /teams, please reach out for guidance in the [#vfs-product-support](https://dsva.slack.com/channels/vfs-product-support) or [#vsp-content-ia](https://dsva.slack.com/channels/vsp-content-ia) channels.***
+
+**Guidelines**
+-  Keep your structure as flat/shallow as possible by avoiding creating multiple levels of folders when you can. Deep structures, with many levels to click through, makes content harder to find - shallow structures expose content quicker, with fewer clicks, and keep URLs shorter. 
+- When deciding whether to create a new sub-folder, here's a few things to consider:
+  - How many files will go in this new folder?  Try not to create folders for just a few files. 
+  - Is there a clear definition of what will go in the new folder? If the grouping is not clear, it will be hard for team members to understand what should go where. 
+  - Could file naming be used rather than a folder to separate and easily find these files?  For a few files on one topic, start their file names the same and follow with a date or version to make them distinct. 
+  - Could the README.md file on the parent folder be used to segment out these files?  The README.md files allow you to make groups and evolve them as more files and different types are added. They also help users quickly find files by providing easy navigation and descriptions. 
+- If you do create a new folder, follow the file and folder naming conventions provided.  Do not repeat descriptive words in child folders.  For example, if you want a folder for all design files under your `health-care/application` product, it does not need to be named `health-care-application-design`, just `design` is sufficient. 
+
+
+## <a id="large-files"></a>File storage and large files
+To improve site performance and conserve storage space, VSP requires that certain file types (which have a tendency to be large files) be uploaded to the va.gov-team repository only via the [Git Large File Storage (LFS) extension](https://git-lfs.github.com/). Git LFS replaces these files with text pointers inside team and product folders, while storing the file contents on a remote server.
+
+The following 6 file types must be uploaded via Git LFS:
+
+- Formatted documents, including PowerPoint (.pptx) or PDFs (.pdf)
+- Design documents, including Photoshop (.psd), Illustrator (.ai) or Sketch (.sketch) files
+- Video files (.m4v)
+
+Your development resource should be able to upload large files to LFS using the GitHub command line or desktop app on the team’s behalf.
+
+### Please do not upload the file types listed above via the web interface. 
+
+If you have questions about how to upload files via Git LFS, we recommend consulting this [tutorial for the command line](https://github.com/git-lfs/git-lfs/wiki/Tutorial) or this [tutorial for the GitHub desktop app](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/documentation/how-to-use-git-lfs-with-github-desktop-app.md). The VSP Content & Information Architecture team can connect your team with additional support if needed.
+
+If your team will be uploading a lot of external files, it can be helpful to create a ‘files’ folder in your team or product area to keep your key folders free of clutter. The files can then be linked to from a Markdown file so they are easily findable.
+
+If you find that your team is uploading large files (greater than 3 MB) of a file type not listed above, please reach out to the VSP Content & Information Architecture team.
+
+
+## <a id="maintainance"></a>Maintaining this repo
+To ensure this repo provides clean and helpful documentation, a process for ongoing maintenance and review  will be needed.  This may include implementing a standard archiving process, general governance to maintain the repo's integrity, reviews/audits for look for sensitive info, etc.  
+
+
+## <a id="questions"></a>Questions
+If you have any questions about using this repo, please don't hesitate to reach out to the VSP team through [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support) or [#vsp-content-ia](https://dsva.slack.com/channels/vsp-content-ia). 
+
+To learn more about requesting Documentation support, please see our [Rules of Engagement](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/information-architecture/working-with-documentation.md#when-and-how-to-request-support).
+
+## Norms for using Github
+
+<hr/>
+
+* [Background](#background)
+* [Tips for creating a Github account](#tips-for-creating-a-github-account)
+* [Using Github](#using-github)
+  * [What is Github?](#what-is-github)
+  * [Tips for managing files and folders](#tips-for-managing-files-and-folders)
+  * [Managing agile workflow](#managing-agile-workflow)
+* [Get help with Github](#get-help-with-github)
+
+<hr/>
+
+## Background
+
+Teams working on the Veteran-facing Services Platform use [Github](https://github.com/department-of-veterans-affairs) to
+
+1. Store and share project documents. We do this to keep a record of project work and so all teams can learn from what other teams are doing.
+2. Store and share Work Practices &#8212; our best practices for how we do things.
+3. Use Github Issues to track progress throughout the agile delivery process.
+4. Manage code and related version history.
+
+
+## Tips for creating a Github account
+
+1. Everyone working on the Veteran-facing Services Platform must set up a Github account.
+1. All content in our VA Github repositories is subject to FOIA.
+1. We **strongly recommend** that you set up a **new Github account for VA work** using your VA.gov email address.
+1. We **strongly recommend** that you do not use a personal Github account for your VA work.
+1. Github requires two-factor authentication (2FA) for new accounts.
+    * If you use a Github account without enabling 2FA, you're likely to have problems pushing code.
+
+
+## Using Github
+
+### What is Github?
+
+GitHub is a system that stores documents and keeps a revision history of those files. It's divided into "repositories" (or "repos") which are groups of related files or documents. For example, this file lives in the ```va.gov-vfs-teams``` repo.
+
+* You can use Github by visiting the URL for a specific repo in your browser and editing files from there. Or you can use the command line to interact with files.
+  * If you're not familiar with Github, use the web URL to learn how Github works and what you can do with it.
+
+* For non-developers, most Github work happens in the ```va.gov-team``` repo where they store and share files.
+
+* Github makes it easy to "style" text-based documents using Markdown syntax. Learn how to use [Github Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+* Review the [Github primer to learn how to do basic tasks like creating a file or submitting a pull request](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/policies-work-norms/github-primer.md).
+
+* See also [tips for managing Github files and folders](#tips-for-managing-files-and-folders).
+
+
+### Tips for managing files and folders
+
+1. Always use a dash (-) between words in file and folder names.
+    * If a folder (or a file) name has white space in it, Github fills each white space with ```%20```. 
+    * This makes it hard for people to read Github URLs and even harder to type them (e.g., if you're on your mobile device).
+1. Use meaningful descriptive titles for files (and folders).
+    * Give files (and folders) descriptive names to help people understand what's in them **before they click into them**.
+    * Avoid acronyms in titles. Characters are cheap. Use them!
+    * Descriptive titles make it much easier to find things using Github's Search function.
+1. Include a useful README.md file at the root of your folder structure, e.g., inside your "Product/Design" folder.
+    * Useful READMEs tell people what's in the sub-folders and files **before they click into them**.
+    * Consider a TOC approach.
+1. Use a predictable folder structure.
+    * Follow examples set by people/teams who came before you. Browse around in ```va.gov-team``` repo to see what other teams have done.
+    * Don't make a bunch of sub-folders that each only contain a few files. This makes it much harder for people to find things.
+1. When a folder contains 12 or more files, start thinking about grouping files into sub-folders to make it easier for people to find stuff.
+
+
+### Managing agile workflow
+
+Each Github repo has a section called "Issues." [Learn about issues](https://guides.github.com/features/issues/).
+
+We use [Zenhub](https://www.zenhub.com) with Github to turn the "Issues" section into an [scrum board](https://en.wikipedia.org/wiki/Scrum_(software_development)).
+
+The "Issues" section of the ```va.gov-team``` repo is where all teams manage their Epics, User Stories, and agile workflow.
+
+* Additional details on Zenhub are [here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/orientation/zenhub.md).
+
+
+## Get help with Github
+
+1. If you have problems using Github, [check the Github FAQs for potential solutions](../../faqs.md#github).
+2. Ask in a Slack channel.
+
+## Slack
+
+Slack is preferred over emails; however, you will get meeting requests via email that you’ll need to accept and add to your calendar, so you should still check your company email a few times a day. You are also required to check your VA email weekly via Citrix Access Gateway (CAG) to keep it active (daily if your job requires it). You are expected to have Slack running and constantly monitored during working hours. Use the installed (desktop) version of Slack on your development systsem rather than just running Slack from your browser (you may have limits on features such as video, sharing, and notifications if you don't.) We also recommend turning on the Google Calendar and Google Drive slack apps.
+
+- Federal DSVA Workspace URL: https://dsva.slack.com
+- Guidance: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/onboarding/vsa-slack-guidance.md
+- DSVA Channels:
+
+| Channel                    | Description                                 |
+| :------------------------- | :------------------------------------------ |
+| #general                   |
+| [#forms-library](https://dsva.slack.com/channels/forms-library)             | A channel to chat about the VA Form library |
+| #random                    |
+| [#vfs-all-teams](https://dsva.slack.com/channels/vfs-all-teams)             |
+| [#vfs-backend](https://dsva.slack.com/channels/vfs-backend)               | Backend Developers, Technical               |
+| [#vfs-engineers](https://dsva.slack.com/channels/vfs-engineers)             | Jenkins deploy, VSP announcements           |
+| [#vfs-frontend](https://dsva.slack.com/channels/vfs-frontend)              | Frontend Developers, Technical              |
+| [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support)      | VSP Platform Support (Help)                 |
+| #vsa                       | VSA all teams and practice areas            |
+| [#vsa-authd-exp](https://dsva.slack.com/channels/vsa-authd-exp)             | Team: Authenticated Experience              |
+| [#vsa-bam-2](https://dsva.slack.com/channels/vsa-bam-2)                 | Team: Benefits And Memorial #2              |
+| [#vsa-benefits-memorial](https://dsva.slack.com/channels/vsa-benefits-memorial)     | Team: Benefits And Memorial #1              |
+| [#vsa-caregiver](https://dsva.slack.com/channels/vsa-caregiver)             | Team: Caregiver                             |
+| [#vsa-caregiver-engineering](https://dsva.slack.com/channels/vsa-caregiver-engineering) | Team: Caregiver (just devs)                 |
+| [#vsa-ebenefits](https://dsva.slack.com/channels/vsa-ebenefits)             | Team: eBenefits                             |
+| [#vsa-engineering](https://dsva.slack.com/channels/vsa-engineering)           | VSA Frontend and Backend Engineers          |
+| [#vsa-facilities](https://dsva.slack.com/channels/vsa-facilities)            | Team: Facilities                            |
+| [#vsa-product](https://dsva.slack.com/channels/vsa-product)               | VSA Product Collaboration (PMs, etc)        |
+| [#vsa-public-websites](https://dsva.slack.com/channels/vsa-public-websites)       | Team: Public Websites                       |
+| [#vsa-vamc-upgrade](https://dsva.slack.com/channels/vsa-vamc-upgrade)          | Team: Medical Center                        |
+| [#vsa-clipboard](https://dsva.slack.com/channels/vsa-clipboard)             | Team: Healthcare                            |
+
+- If you still have questions about getting started or where to find certain resources (after having internally checked within your team and lead), the [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support) channel is a good place to get some visibility to your question. It is the best way for team members to engage with the VSP Platform Support Team.
+- **Bots**: **_/wtf_** On the DSVA slack, you can look up VA Acronyms (source/data: https://github.com/department-of-veterans-affairs/acronyms)
+- **Apps**: Allow the “Google Calendar” Slack app to access your work account so that it can remind you of meetings and automatically set your status to “In a meeting”
+- **Status**: In addition to setting your vacation time in the shared Google Calendar for PTO, remember to set your status for sick, commute (if within working hours), or vacation.
+
+## Engineering Onboarding
+
+Welcome to the rodeo!  
+
+This document is designed to encompass onboarding for any engineers joining the vets.gov team. There are slight differences for contractors, USDS HQ, and VA employees, but we act as one team as much as possible, so the differences are minimal and we can all fit together in this document! 
+
+## Logistics
+
+- Get on Slack and added to at least [#vetsdotgov](https://dsva.slack.com/channels/vetsdotgov), [#vetsgov-engineers](https://dsva.slack.com/channels/vetsgov-engineers), and any channel for project(s) you will be working on.  
+- Get added to the department-of-veterans-affairs GitHub organization. Everyone needs to be added to the "Vets.gov Engineers" team. 
+	- USDS HQ folks should also be added to the "US Digital Service HQ" team. 
+	- DSVA folks should also be added to the "Digital Service at VA" team
+	- Ad Hoc folks should also be added to the "Ad Hoc - General" team
+- Make sure you can see the vets.gov [Zenhub board](https://app.zenhub.com/workspace/o/department-of-veterans-affairs/va.gov-team/boards).  This is how we do sprint planning, with filtering by label.
+	- You can also download the [Zenhub Browser Extension](https://www.zenhub.com/extension) to enable all of Zenhub's functionality within Github.
+- Get added to all **recurring** (and non-recurring) meeting invites (it's easy for someone to forward the non-recurring version, so make sure you see future weeks on your calendar as well). These meeting invites include but may not be limited to:
+	- Vets.gov engineering meeting on Tuesday at 2:30PM Eastern. 
+	- Vets.gov team meeting on Tuesday at 2PM Eastern.
+	- Your team's sprint planning meeting, likely every other Monday, as well as your team's standups during the week. 
+- Get your PIV card and onto the VA network as quickly as possible. 
+	- VA and USDS HQ employees, please talk to your buddy about this (if you don't have a buddy, please talk to your lead, who should help find you a buddy). 
+	- Ad Hoc employees, please work with Elizabeth Lewis to complete this. 
+- Request a PagerDuty account by creating a GitHub issue in va.gov-team and ask in [#sre](https://dsva.slack.com/sre/) for someone to take it. Then contact your [team lead]() to plan your [On Call]() schedule.
+
+## Background/FAQ
+
+- What is va.gov? Vets.gov enables Veterans to discover, apply for, track, and manage the benefits they have earned.
+- Why are we building va.gov?  Veterans should have a single place to go online that is easy to understand and use to access all their benefits. This may sound simple, and that's the beauty of it; all we are trying to do here is get Veterans access to the benefits they have earned. 
+- Need more motivation?  Check out [this video](https://www.youtube.com/watch?v=l_ErfXWckjI) from a usability research session of a Veteran trying to apply for healthcare before vets.gov.  [This](https://medium.com/the-u-s-digital-service/introducing-a-new-digital-application-for-healthcare-at-va-610d8bac4c78#.af53j45ij) is also a blog post about adding the Healthcare Application to vets.gov. 
+- To see the products on vets.gov and some background on them, go to https://www.va.gov/scorecard
+- To see some of the applications we have built so far, you can go on https://staging.vets.gov (HTTP basic auth username/password: veterans/am3rica) and log in with [these instructions](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Administrative/accessing-staging.md).
+- To see some of the forms we have built so far, you can go to the [healthcare application](https://www.va.gov/health-care/apply/application/introduction) or [education benefits](https://www.va.gov/education/how-to-apply/).  
+- Who is on the team? What products belong to which sub-teams? Check out the [org chart]()!
+- How much traffic does vets.gov have? Or check out https://analytics.usa.gov/veterans-affairs/ and under Top Pages click "7 Days". As of March 2018, vets.gov is the 6th most trafficked VA website, up from 12th in March 2016.
+- Talk to Mina Farzad (@mina on Slack) to get access to Google Analytics. Once access is granted, log in at https://analytics.google.com to view more detailed breakdowns of site traffic.
+- What has the team been discussing as a group recently? Check out the recent agendas from [Engineering Team Meetings](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/engineering/team-meetings).
+- What is ID.me?  ID.me is a [FICAM-accredited](https://arch.idmanagement.gov/) federated identity provider, and one of only a handful of companies approved by [NIST](https://www.nist.gov/) to identity proof at levels of assurance (LOA) up to 3 in accordance with the [800-63-x standards guidelines](https://pages.nist.gov/800-63-3/sp800-63b/cover.html).  For a great primer on levels of assurance, please see the [FICAM use cases](https://arch.idmanagement.gov/usecases/) which do a great job of spelling it out. ID.me provides authentication for users attempting to access VA services through va.gov; there is no "vets.gov account", as instead users log into ID.me, their credentials are passed through to va.gov, and va.gov uses this information to make additional requests for authorization within VA systems.  An ID.me-specific FAQ is available [on their web site](https://support.id.me).  ID.me is a Veteran-owned business in the DC area. 
+- What is happening to all the other VA websites that we are migrating functionality from?  va.gov is a place for Veterans to _do_ things. Any content that is solely about the VA (such as leadership bios, organizational structure, or VA career opportunities) will continue to live on va.gov. Other sites will have their presentation layer (what the Veteran sees) redirected to va.gov. va.gov will rely on APIs from many of these other sites for business logic and data, however, so we have to be careful with the language that we use; while Veterans will no longer directly log into these other sites, some of these sites are not "turning off" or "going away" from the VA business perspective. This nuance is very important while working on change management with VA stakeholders. 
+
+
+## Technical Background
+- va.gov runs in AWS GovCloud.  This [Technical Architecture Overview]() provides an overview of our network topology. There are likely acronyms there that don't make sense yet, but that document should help get you started. 
+- We once had a long debate about our tech stack. Documentation on this history, and where we ended up, can be found in [Languages and Tech Stack](). We also documented decisions to have the backend as a [monorepo]() and to use [Redux]() to manage state in our React applications. 
+- A few technical diagrams (accurate at the time they were written, no longer guaranteed to be so) can be found in the [devops](https://github.com/department-of-veterans-affairs/devops/tree/master/docs/diagrams) repo.  
+- There are some design documents written about different aspects of va.gov in the [Core Platform](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/engineering/infrastructure) directory. 
+- The vets.gov login flow from the front end perspective is available [here](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/login/reference-documents) and from the API perspective [here](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/identity-personalization/login/reference-documents).
+
+
+## Potential First Actions
+- Make sure you have read through the [Using GitHub](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/orientation/how-to-collaborate-on-documents.md), [filing bugs](), and our [Continuous Integration process](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/backend/continuous-integration-process.md).  These may (or may not!) feel pretty basic, but they help establish a shared language and document a lot of the teams norms and culture. 
+- The [vets-website repo](https://github.com/department-of-veterans-affairs/vets-website) is the entire front end of vets.gov; this is a good place to get your feet wet, as all projects will at least be linked in some way from a page in this repo.  
+	- Clone vets-website and get it running locally by following the README. If you want to test out full functionality (not just the front end), see the vets-api README to get the API running locally as well. You may also need (or want) to log in locally, which you can use [this document](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Administrative/accessing-staging.md) to get instructions on how to do (those instructions are for staging, but the same user and steps, with a different URL, will work locally). 
+	- Create a branch and make a change (find a small unassigned ticket (likely will be in va.gov-team) or just fix a typo if you see any or if anything in the README is incomplete or unclear!).
+	- Submit a PR (make sure the tests pass) and assign to another engineer to review. See [code review norms](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/code_review_guidelines.md) as well. 
+	- Your code will go to production with our daily 3PM push.  
+- Our tech stack (mostly) is an API (called [vets-api](https://github.com/department-of-veterans-affairs/vets-api)) built with Rails and single page apps built with React (all in [vets-website](https://github.com/department-of-veterans-affairs/vets-website)). Thus it would be valuable to know about both Rails and React. If you can't meet with your tech lead yet, don't know what to do with your time, and you aren't experienced with one of these, learning about them will be valuable. The [Rails](http://guides.rubyonrails.org/getting_started.html) and [React](https://facebook.github.io/react/tutorial/tutorial.html) tutorials are decent (or just Google around or check out vets-website or vets-api!).
+
+## Sensitive Information
+
+You may work with PII/PHI as part of your work, and will undergo VA training that provides additional information. 
+
+* Reference the VA 6500 handbook<sup>[5](#va-6500)</sup> and your training for additional details. 
+* When possible, work with the DevOps team to provision a temporary instnace within the VA security boundaries to download and process data that includes sensitive information. 
+* If you download sensitive information to your VA GFE, permanently remove it as soon as possible. 
+* Never work with sensitive information on any non-VA system. 
+* Encrypted VA email is the only appropriate means for communicating sensitive information within the VA. 
+
+**Security Incident Response** https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/triage/incident-response-playbook.md
+
+
+## Prepare for On Call
+- Don't panic, we will give you plenty of ramp up time before you're on call.
+- We use PagerDuty to manage our On Call rotations. To get a PagerDuty account, create a GitHub issue and ask for a volunteer in [#sre](https://dsva.slack.com/sre/) to get you added appropriately.
+- Configure your system to access internal tools (monitoring, application logs,
+  build logs, errors, and performance graphs) with instructions [here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/internal-tools.md).
+- Scope out the [On Call](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/triage) documentation for details on the On Call procedures. Specifically:
+    - Learn how to [configure Pager Duty]() so you don't miss a page.
+    - Join the `dsva` Keybase team as an alternative when slack is down ()
+    - Check out the [services your team is responsible for]() during your rotation.
+    - Get a general idea of [what you'll get paged for]().
+    - Understand how to [respond to an incident](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/triage/incident-response-playbook.md) when you get paged.
+    - Read some [Postmortems]() for real examples of how we respond to issues.
+
+## Getting access to tools
+
+Setting up all of the following tools while you onboard will make time on VSP easier.
+
+**Everyone** working on VSP should follow steps in this document to get access to Slack, GitHub, and ZenHub.
+
+**Developers** working on VSP should **also** follow steps in this document to get access to Jenkins, Grafana, and Sentry.
+
+## Slack
+
+1. Ask your Program Manager to request an invitation to the **Digital Service @ VA** Slack.
+
+1. Check your email for the Slack invitation and join!
+
+1. Add information to your Slack profile:
+    * Profile image
+    * Full name
+    * What I do
+        * Recommended format: `Program/Team - Role [Company]`, i.e. `VSP/FE Tools - Product Manager [Oddball]`
+    * Time zone
+    * Pronouns
+    * GitHub (i.e. the account handle / username you created when you set up your GitHub account)
+
+## GitHub
+
+### Getting access to the VA GitHub Organization
+1.  Ask your Program Manager to submit an [Add User to the VA Organization ticket](https://github.com/department-of-veterans-affairs/github-user-requests/issues/new/choose).
+    * The ticket submitter will need to have VA GitHub Org access already.
+    * Ask your Contracting Officer's Representative (COR) to post their approval on this ticket to expedite the approval process.
+    * This process is managed by the VA GitHub admins, not by VSP, and may take a few days to process. 
+
+1. Once your ticket is processed, check your email for an invitation to the VA GitHub Organization, and join!
+
+1. Once you've been added, add information to your Github profile:
+    * Organization: ```Your company name```
+    * Working on: ```The project your team is working on```, e.g., "526 ancillary forms"
+
+### Getting Repo Access 
+1. Once you are in the VA GitHub Organization, attend Orientation with the Product Support team.
+
+1. After Orientation, VSP will add you to the `vets.gov-write` team, which will provide you access to the repositories needed for working on VA.gov.
+    * If you still don't have this access, post a request in [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support).
+
+## ZenHub
+
+See [details and orientation on ZenHub](./zenhub.md).
+
+ZenHub is used by the VSP team for issue tracking and management. 
+
+## Additional access for developers
+
+Several internal tools for development are only accessible within the VA network. Access to developers outside the VA network is made available via a SOCKS proxy. For proxy access, we require the use of an SSH key pair for security.
+
+### Set up your SSH key pair
+
+1. Create new SSH keys.
+    * [Windows instructions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/internal-tools.md#creating-an-ssh-keypair-in-windows)
+    * [Mac/Linux instructions](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/internal-tools.md#create-ssh-public-key).
+
+### Request access
+
+1. <a id="authorizekeys"></a> Open an [Environment Access Request](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new/choose) issue and fill out the questions in the template.
+     * For the "Grant AWS Console Access?" question, answer depending on if you need AWS Console access.
+         * Our infrastructure is hosted in AWS GovCloud. This account is shared amongst many different teams; changes made to resources in this account will affect many services. You may need access to AWS for troubleshooting, log file review, and to apply changes to the running instances and services.
+         * In order to be granted AWS Console access, your PIV background (eQIP adjudication) check needs to be underway. Please mark yes in the AWS Console access and provide a short description of why you need access. All AWS Console access requests will be reviewed by DEPO. **If you're not certain you need access to AWS, please mark "No"**.
+         * For VSP Operations team members, AWS access can be expedited.
+    * Tag group `@department-of-veterans-affairs/vsp-operations` to review.
+    * Monitor the issue for updates and respond to any questions from the operations group.
+
+### Set up the SOCKS proxy
+
+1. Make sure your Environment Access Request ticket has been completed.
+
+1. Configure [the SOCKS proxy](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/internal-tools.md#configure-the-socks-proxy).
+
+1. Understand [how to use the SOCKS proxy from inside the VA network and from the internet](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/internal-tools.md#accessing-socks-proxy-from-va-network).
+
+1. [Test and use the SOCKS proxy](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/internal-tools.md#accessing-socks-proxy-from-the-internet).
+
+1. Test accessing Jenkins, Grafana, and Sentry through the SOCKS proxy (see below).
+    * When logging into these services for the first time click the button `Login with GitHub` or similar.
+        * You will be prompted to link your GitHub account and presented with a permissions dialog.
+        * Allow the service to access your account and view your Organization membership.
+
+### AWS Console Access
+
+If you requested AWS Console access in your Environment Access Request, here's how to proceed:
+
+1. When your account has been setup, you will receive a Slack private message with your temporary password and login URL.
+1. Log in and change the temporary password immediately. AWS will prompt you to change your password during the first login.
+1. Follow the [walk through for MFA setup](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/backend/aws-account-setup.md).
+    * Setting up a virtual MFA device is required to access services in the AWS cloud and programatically via the CLI.
+
+
+
+## Tools overview
+
+### Jenkins
+
+With the Socks proxy set up and running, go to http://jenkins.vfs.va.gov. You can see the builds without logging in, but will need to authenticate (with GitHub OAuth) to re-run failed builds.
+
+### Sentry
+
+With the Socks proxy set up and running, go to http://sentry.vfs.va.gov.
+
+VSP uses Sentry teams to separate production, staging, and dev errors. To view the most recent production errors, which is the most common thing to do while on call, go to http://sentry.vfs.va.gov/vets-gov/platform-api-production/.
+
+### Grafana
+With the Socks proxy set up and running, go to http://grafana.vfs.va.gov/login. You can sign in using your GitHub account by clicking the "GitHub" button on the login page.
+
+There are many dashboards and you should click around to get familiar with the variety of metrics being collected and visualized (make sure Data Source is set to Production). A few highlights are:
+
+- [Site](http://grafana.vfs.va.gov/dashboard/db/site) provides overall metrics about the health of the site.
+- [External Service Status](http://grafana.vfs.va.gov/dashboard/db/external-service-status) allows you to see the availability of the services vets.gov depends on.
+- [RDS](http://grafana.vfs.va.gov/dashboard/db/rds) provides database statistics.
+- [Rev Proxy](http://grafana.vfs.va.gov/dashboard/db/revproxy) provides metrics on the reverse proxies.
+
+## Product development checklist
+
+### Ask yourself the questions below weekly, starting from Day 1.
+
+This checklist is for you to gut check that you've taken all of the steps necessary for your feature to be successful for users. You won't have answers to all of these questions right away, and some you'll want to take action on multiple times, but you should check in to make sure these things are happening iteratively over the lifetime of your product.
+
+This resource is meant to be used in parallel with the [VSP Collaboration Cycle](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/platform/working-with-vsp/vsp-collaboration-cycle). The items below that correspond with one or more VSP collaboration points are starred `*`. The VSP collaboration cycle is designed to guide your team through successful development but it is still your responsibility to ensure that all the points below are sufficiently met.
+
+_Note: as always, use the [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support) Slack channel whenever you have a question on how to proceed!_
+
+---
+
+## Is my product / feature...
+
+### ...usable (for ALL users)?
+
+- [ ] Usability testing indicates new changes improve / don't worsen back-of-house VA employee experience
+- [ ] [Usability testing](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/lead-researcher-checklist.md) indicates new changes enable users to do what they need to do `*`
+- [ ] Everything is [508 Accessible](https://github.com/department-of-veterans-affairs/va.gov-team/blob/de1d32ebfc17d4b887133e33d946ece5a12913d8/platform/accessibility/README.md) and there are no Sev 1 accessibility bugs `*`
+- [ ] Everything is written in [plain language](https://design.va.gov/content-style-guide/) `*`
+- [ ] Everything is consistent with VA's [Design System](https://design.va.gov/) `*`
+- [ ] [Downtime notifications and error messages](https://design.va.gov/patterns/messaging-error-messages) are documented 
+- [ ] [End-to-end manual QA](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/quality-assurance/README.md) is complete and no Sev1 bugs `*`
+- [ ] [End-to-end UAT](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/research/planning/what-is-uat.md)(with real users) complete and no Sev1 bugs
+- [ ] Availability and latency targets are defined `*`
+
+### ...findable?
+
+- [ ] [URL, nav, bread crumbs, and cross-links](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/information-architecture/ia-best-practices.md) are consistent with VA's style guide and map to the user's mental model `*`
+- [ ] [SEO](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/information-architecture/seo-best-practices.md) is baked into everything
+- [ ] Static entrance/intro content is in place `*`
+- [ ] [Redirects](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/information-architecture/request-redirect.md) (if necessary) from legacy tools/pages are in place
+
+### ...compliant w/VA official stuff?
+
+- [ ] Changes adhere to DEPO's [7 Digital Modernization Principles](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/va-gov-relaunch-2018/va-gov-strategy/digitalmodernizationstrategy.pdf)
+- [ ] Changes have appropriate ATO
+
+### ...measurable?
+
+- [ ] [KPIs are defined and tracked](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsp/teams/insights-analytics/kpi-tracking/kpi-process.md)
+- [ ] Feature is included in the weekly Product Health Report
+- [ ] [Google Analytics / Google Tag Manager](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/analytics/analytics-communication-guide.md#requesting-google-analytics-implementation-or-qa) setup is complete `*`
+- [ ] Phased, data-informed [release plan](https://github.com/department-of-veterans-affairs/va.gov-team/blob/97759a81a47c73da8bf03e35f3a13bb3c689d18b/platform/product-management/release-plan-template.md) is complete `*`
+- [ ] Monitoring is setup correctly and working `*`
+
+### ...secure and reliable?
+- [ ] Users' private data is safe, including not logging PII `*`
+- [ ] Feature doesn't introduce new vulnerabilities `*`
+- [ ] Playbook exists on most likely failure modes and how to respond quickly to issues `*`
+- [ ] The feature has 90% [unit test coverage](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/quality-assurance/unit-testing/README.md), running in CI/CD
+- [ ] Feature can handle anticipated load and traffic spikes, with [a completed load test](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/quality-assurance/load-testing/README.md)
+- [ ] Rate limits are set
+
+### ... supportable?
+- [ ] Dashboards and alerts are set up for finding and investigating issues
+- [ ] Point of contact are documented for the app itself and any new backend dependencies `*`
+- [ ] There's a [Product Outline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/34add7c7b3d558158ccf3f599e79c2380076481c/platform/product-management/product-outline-template.md)
+- [ ] [Contact centers know how to help users who call in about the feature](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/contact-center/request-contact-center-review.md) `*`
+
+### ...marketable?
+- [ ] Product brief (with visuals), outlining the value and functionality of your product is in github
+- [ ] You've done a [Go/No Go meeting](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/product-management/go-no-go-meeting-template.md)
+
+## Platform code review guidelines
+
+This document covers rules for engaging the VSP team in [pull request reviews](https://help.github.com/en/articles/about-pull-request-reviews). These guidelines are intended to:
+
+* Help maintain the code quality and stability of the platform itself
+* Enable VSP team to quickly review changes for VFS teams
+* Clarify the process for moving code from development through review to production
+
+We expect developers to be familiar with GitHub and the pull request review process, but want to be clear about our norms to reduce confusion and help code flow through the process as quickly and reliably as possible.
+
+## Code owners
+
+Information on how VSP uses code owners can be found [here](code-owners.md).
+
+## The pull request review lifecycle in brief
+
+1. For initial review by your project team, create a [Draft Pull Request](https://github.blog/2019-02-14-introducing-draft-pull-requests/)
+2. If your PR triggers any [additional automated checks](./manual-review-triggers.md), a bot will leave a comment and request a manual review from the **frontend-review-group**
+    - the frontend-review-group completes reviews within one business day
+3. When all review comments have been resolved, the PR can be merged into the master branch for deployment.
+
+*Hint*: Smaller, focused pull requests will make this easier for everyone!
+
+## Code Review Guidelines
+
+Your code will be automatically reviewed by automated systems for format, common errors, typical
+language idioms, and code preferences using language-standard tools.
+
+When your code is reviewed, here are some of the things we're looking for:
+
+* *Correctness*. Does the code correctly implement the described feature?
+* *Code quality*. Is the code readable? Is the code language-idiomatic?
+* For front end changes, are screenshots of the change(s) included?
+
+
+## Basic expectations for pull requests
+
+* **PR title** should be a concise summary of the change.
+
+* **PR Description**: make it clear what the change is describing.
+    * explain how code changes are related to the pull request objectives.
+    * reference the **GitHub issues** your PR relates to, in order to provide reviewers more context.
+
+* Keep your changes scoped to one feature at a time.
+    * **Size**: changes should be smaller than a few hundred changed lines and a couple dozen files. Our automated tools will warn you about PRs that are large and automatically fail PRs that are very large. Our FAQ (below) has more information, but if you expect to submit a large pull request you should reach out to the reviewing team early in [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support) and factor extra time for review into your planning process.
+    * **One thing at a time**: feature code, cleanup/refactoring changes, dependency/package upgrades, and database migrations should all be in **separate PRs**. As much as possible, each PR should address a single feature or bug at a time.
+
+* **Linting**: format your code in accordance with style guidelines.
+    * Run your linter and address any linting related issues before opening your PR.
+    * If you programmatically ignore a linting recommendation (e.g. via `rubocop:disable`), please comment in the PR explaining why.
+    * If your linter does raise any issues unrelated to the PR's subject matter, please fix these in a separate PR.
+
+## FAQ
+
+Q. I created a pull request and I meant to create a draft pull request instead. How do I change it to a draft pull request in GitHub?
+
+A.  Unfortunately, you can't change it. But as an alternative, please add "WIP" to the beginning of the title of your PR and we'll know what it means.
+
+Q. I need a review *right now*! How do I get one?
+
+A. We try to do pull request reviews quickly, but if you need a review faster, escalate via your DSVA product owner. Please don't post in Slack asking for a review unless it has been more than a full business day.
+
+Q. What do I do if my pull request receives a _warning_ that it is too large?
+
+A. Review your code and decide if you can make two or more smaller, focused pull requests. Feel free to reach out to [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support) for help about reducing the size or coordinating a larger review. Expect that reviewing the pull request will take additional time.
+
+Q. What do I do if my pull request was *rejected* because it is too large?
+
+A. As with a _warning_, decide if you can make several smaller pull requests and reach out on the support channel for additional help. Expect that reviewing the pull request may take significant extra time.
+
+## 508, Accessibility, and Inclusive Design Best Practices
+
+**Table of Contents**
+
+  - [Checklists](#checklists)
+  - [Accessibility Tips for Designers, Researchers, and Developers](#accessibility-tips-for-designers-researchers-and-developers)
+  - [Semantic Markup](#semantic-markup)
+  - [Formation Design System](#formation-design-system)
+  - [Automated Accessibility/508 Testing](#automated-accessibility508-testing)
+    - [Getting Started With Automation](#getting-started-with-automation)
+    - [Build Pipeline Requirements](#build-pipeline-requirements)
+  - [Manual Accessibility/508 Testing](#manual-accessibility-testing)
+    - [Color Tests](#color-tests)
+      - [Color Contrast](#color-contrast)
+      - [Colorblindness](#colorblindness)
+    - [Zoom to 400%](#zoom-to-400)
+    - [Keyboard Navigation](#keyboard-navigation)
+    - [Headings](#headings)
+    - [Screen Readers](#screen-readers)
+      - [Possible Screen Reader Errors](#possible-screen-reader-errors)
+      - [Test Pairings](#test-pairings)
+
+## Checklists
+- [508 Checklist](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/508-checklist.md)
+- [WCAG Checklist](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/WCAG-Checklist.md)
+
+## Accessibility Tips for Designers, Researchers, and Developers
+
+Accessibility is an outcome, generally linked to compliance, ensuring solutions are usable by everyone. Inclusive design is a human-centered process considering user diversity, by including and learning from a range of perspectives. Accessibility and inclusive design should be a part of all product design and development conversations to ensure no one is excluded from using the solutions.
+
+The following recommendations have been put together to help teams identify and mitigate accessibility errors during the design, research, and development cycles. There will always be errors that are identified during test and promotion cycles; the goal is to minimize errors called out by clients and end users.
+
+## Semantic Markup
+
+- Review rendered HTML periodically, especially during development. Ensure HTML validates against the `HTML5` doctype.
+- Each page should have an H1 as the first heading.
+- Headings should be properly nested.
+  - The H1 should convey the page's purpose
+  - H2s should be used to semantically define the high-level content groups
+  - H3 through H6 should be used to define sub-points
+  - In the footer, the first level heading should be an H2 and a utility class will adjust the visual styling.
+- Design system utility classes should be used to style headings
+  - [Font family](https://design.va.gov/utilities/font-family) should be used to adjust typefaces
+  - [Font size](https://design.va.gov/utilities/font-size) should be used to adjust size in pixels
+- Page `<title>` tags should update on every URL change.
+  - H1 text should be included in the page title
+  - Page title may be longer or more descriptive than the H1
+  - For example the `<h1>` might read "Learn about benefits" and the `<title>` might read "Learn more about benefits | VA.gov"
+
+## Formation Design System
+
+- Use the [Formation](https://github.com/department-of-veterans-affairs/veteran-facing-services-tools) design system as the base for your visual designs.
+- Read the [design system documentation](https://design.va.gov/)
+
+## Automated Accessibility/508 Testing
+
+Automated scan errors are the first recommendation for logging and fixing. These errors can cause issues for screen reader, keyboard, mobile, and low-vision users. Issues include improperly formed markup, misused ARIA attributes, color contrast, and missing landmark structures.
+
+### Getting Started With Automation
+
+- **axe Scans** Front-end engineers should install the [axe plugin for Chrome or Firefox](https://deque.com/axe) and [run automated scans](https://www.youtube.com/watch?v=FW1giWW5M9I) periodically during their daily work against all application pages or states. The axe-core plugin is available for [Chrome](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/). This adds a tab to developer tools and provides on-demand accessibility scanning for single pages during development.
+- **Lighthouse scans** Front-end engineers may audit with the [Lighthouse plugin](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) to ensure web performance, accessibility, best practices, SEO, and even progressive web app support will deliver an optimal user experience.
+- Going forward, we should also be testing pages with [axe-coconut](https://www.deque.com/blog/test-leading-edge-accessibility-axe-coconut-axe-core-3-0/), which identifies experimental WCAG2 warnings and best practices.
+- Developers should run the [axe browser plugin](https://deque.com/axe) while developing new components. Many automated errors can be avoided or fixed during the development cycle.
+- Validate rendered HTML to avoid automated accessibility errors. Valid HTML also helps screen reader users navigate your product.
+
+### Build Pipeline Requirements
+When you push your code to a feature branch or merge to master, the automated build process will test for accessibility/508 compliance on all **static** pages. The axe check scans for Section 508, WCAG2 A and WCAG2 AA [ruleset](https://dequeuniversity.com/rules/axe/) violations.
+
+- **Each rendered page must pass an axe check.**
+  * Static Markdown pages should be checked for violations using the axe plugin.
+  * Static content created by Markdown files or the Content Management System (CMS) will be tested as part of the build step.
+  * Pages created with the content management system (CMS) should also be checked using the axe plugin.
+  * If a build error occurs, fix the issue and submit your code again.
+- **Client-side applications must include end-to-end tests and axe checks**
+  * Client-side applications will be tested for accessibility as part of their larger e2e test suite.
+  * The engineering team has created a [Cypress **axeCheck** helper function](https://github.com/department-of-veterans-affairs/vets-website/blob/master/src/platform/testing/e2e/cypress/support/commands/axeCheck.js) to add axe checks to e2e tests.
+  * Axe checks should be run for each view or unique state of an application. These checks should include hidden content like modal windows and accordions.
+  * If a build error occurs, fix the issue and submit your code again.
+- **ESLint**
+  * ESLint exists as a Node module with a command-line interface. It runs a lint scan on all components as a pre-commit hook, and will break on errors.
+  * Generally speaking, ESLint and the needed dependencies should be installed when users *yarn install* from the *vets-website* root.
+
+## Manual Accessibility Testing
+
+### Color Tests
+
+#### Color Contrast
+- [Formation design system color palette](https://design.va.gov/design/color-palette) has been tested to ensure compliance and usability.
+- Designers should check color pairings during visual design sprints, especially:
+    - White text on yellow, orange, red
+    - Black text on darker blues, purples
+    - Gray text on white or textured backgrounds.
+- Check color contrast ratios of deliverables in progress:
+    - [Who Can Use](https://whocanuse.com/) is a great resource for previewing text for contrast and readability
+    - [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+    - [Tanaguru Contrast Finder](https://contrast-finder.tanaguru.com/)
+    - [Stark - Color Contrast and Color Blindness Plugin](http://www.getstark.co/)
+    - [Colour Contrast Analyzer](https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll?hl=en) - helpful Chrome extension for checking work in progress
+#### Colorblindness
+- [Color blindness: how to design an accessible user interface](https://uxdesign.cc/color-blindness-in-user-interfaces-66c27331b858)
+- Check for colorblindness issues in live sites using the [Chrome Colorblinding plugin](https://chrome.google.com/webstore/detail/colorblinding/dgbgleaofjainknadoffbjkclicbbgaa?hl=en)
+    - Ensure [color is not the only means to distinguish links](https://www.w3.org/TR/WCAG20-TECHS/F73.html) from standard text.
+      - Consider underlining links, especially in paragraph blocks.
+      - Check that links maintain a [3:1 color contrast ratio](https://www.w3.org/TR/WCAG20-TECHS/G183.html) if not underlined
+      - Consider typefaces, font weight, and iconography as third options. Icons will need semantic guides for screen reader users. Example: a download icon is added to links for downloading documents. The accessible title will need to announce this information.
+    - Charts, maps, and tables should convey information without relying on color
+    - Do not use descriptions such as "Click the green button" for calls to action
+
+### Zoom to 400%
+
+- Set browser width to 1280px
+  - In Chrome you can right click on any webpage, and select `Inspect` from the menu. This will open the Developer Tools console. Drag your browser window narrower or wider until the number in the top right corner of your browser window reads "1280"
+  - In Firefox you must [turn on rulers](https://developer.mozilla.org/en-US/docs/Tools/Rulers) before you can accurately resize your browser window. When rulers are enabled, right click on a page and select `Inspect Element` from the menu. When the Firefox Developer tools are open, click the ruler icon. The ruler is the third icon from the top right of the Developer tools panel.
+- Zoom in by pressing `Ctrl and +` on Windows or `Cmd and +` on Mac, until browser shows 400% zoom.
+- Most layouts should not scroll sideways or have content to the edges. Horizontal scrolling is permitted for content like images, maps, diagrams, presentations, and data tables.
+- [Understanding Success Criterion 1.4.10: Reflow](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html)
+- [WCAG: Understanding Reflow](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html)
+
+### Keyboard Navigation
+
+Keyboard testing is a manual process. All pages should be verified by a human tester, and ideally an end-to-end keyboard script. During your testing or user testing, if something doesn’t feel quite right, consider [writing an issue ticket](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?assignees=&labels=508%2FAccessibility&template=508-issue.md&title=) to investigate with your accessibility specialist.
+
+- [Ensure all pages can be navigated with keyboard.](https://webaim.org/techniques/keyboard/)
+- Ensure no links, buttons, or form elements are unreachable using Tab, Shift + Tab
+- Ensure custom rich components can be navigated using keyboard, arrow keys
+- Skip navigation link should be on all pages with navigation, large numbers of links
+- Ensure focusable elements (links, form inputs, buttons, radios, checkboxes) are all reachable by keyboard. Ensure any elements with a `tabIndex="0"` can be focused in the normal document flow.
+- Whenever possible, use proper semantic elements. For instance, it is better to use a `<button>` than re-create events and focus behaviors using custom tags.
+- Avoid keyboard traps. These are situations where users can tab into an interface, but can't tab out of it by pressing `TAB` or `SHIFT+TAB`.
+- Ensure your application has a predictable tabbing order. In left-right languages like English, this is assumed to be left to right, top to bottom. In multi-column layouts, use your best judgment. Interfaces that include a left navigation bar would likely allow users to focus each link or button in the left nav, then move focus to the main content area.
+- Offer ways to skip large groups of links like a [skip to content link](https://webaim.org/techniques/skipnav/)
+- Review the [WebAIM keyboard accessibility guide](https://webaim.org/techniques/keyboard/) for keyboard navigation patterns.
+
+### Headings
+
+- [Accessibility Insights headings extension](https://accessibilityinsights.io/) - Browser extension for Chrome and the new Microsoft Edge to test accessibility of webpages and web applications
+
+
+### Screen Readers
+
+Screen reader testing is mostly a manual process. Consider spot testing with at least two, and ideally all three screen readers listed here. At a minimum, NVDA should be tested as it is cross-browser and open-source. Mac users should also be testing VoiceOver on Safari. **Do not use Chrome** for VoiceOver testing, as it can cause false positives and has some ARIA bugs.
+
+#### Possible Screen Reader Errors:
+
+- Buttons or links that do not provide clear understanding of their function. This could sound like “Edit”, without telling a non-sighted user “Edit...what?”
+- Dynamic content being added or removed from the page without announcing a change. \* Alert boxes, forms with hidden questions, continue links, are good items to consider.
+- Overly long explanations
+- Content that is too far removed from an explanation, or with no explanation at all
+- Heading mistakes:
+  - H1 at top of page, then next heading is an H4
+  - Headings that are nested improperly (H3 inside an H4, for instance)
+  - Content that looks like a heading, but is marked up as a div or paragraph
+- Missing landmark HTML. This includes banner, navigation, main, aside, footer elements, or divs with role attributes. These help screen reader users navigate through pages.
+
+#### Test Pairings:
+
+- [MacOS VoiceOver Guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/resources/mac-voiceover-guide.md)
+- [Cross-Platform Screen Reader Guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/accessibility/resources/screenreader-testing-cross-platform.md)
+- [Test using JAWS + IE11 on Win7/10](https://webaim.org/articles/jaws/)
+- [Test using NVDA + Firefox on Win7/10 - VIDEO](https://www.youtube.com/watch?v=Vx1vSd5uYS8)
+- [Test using VoiceOver + Safari on OSX](https://webaim.org/articles/voiceover/)
+
+The flow must be possible to complete on [VA.gov supported browsers](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/engineering/request-for-comment/browser-support.md) with the most commonly used screenreader(s) (see for example [2017 WebAIM screenreader survey](https://webaim.org/projects/screenreadersurvey7/)):
+
+  - [ ] User flow must be possible using a keyboard only (no pointing device). See the [WebAIM keyboard accessibility guide](https://webaim.org/techniques/keyboard/) for keyboard strokes.
+  - [ ] Windows 7/10: IE11 with JAWS (tested by the Section 508 office)
+  - [ ] Windows 7/10: Chrome with JAWS (tested by the Section 508 office, second option upon request)
+  - [ ] Windows 7/10: Firefox with NVDA (tested by the Section 508 office, third option upon request)
+  - [ ] MacOS: Safari with Voice Over. Make sure you have [updated the Accessibility System Preference](https://www.scottohara.me/blog/2014/10/03/link-tabbing-firefox-osx.html) before testing.
+
+## Sensitive documentation guidance
+
+This document clarifies what content should live in the publicly-visible [`va.gov-team`](https://github.com/department-of-veterans-affairs/va.gov-team) repository vs. the not-publicly-visible [`va.gov-team-sensitive`](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive) repository.
+
+## Background
+
+All content related to development on VA.gov belongs in the public [`va.gov-team`](https://github.com/department-of-veterans-affairs/va.gov-team) repository when possible. However, there are a limited number of reasons that content should remain private. All content in the [`va.gov-team-sensitive`](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive) repository should fall within one of the following approved use cases.
+
+## Private content
+
+### PII
+
+Veteran PII should not be checked into GitHub. 
+
+[OMB memorandum M-07-16](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2007/m07-16.pdf) includes extensive details about securing PII, including this brief definition:
+
+> The term "personally identifiable information" refers to information which can be used to distinguish or trace an
+individual's identity, such as their name, social security number, biometric records, etc. alone, or when combined
+with other personal or identifying information which is linked or linkable to a specific individual, such as date and
+place of birth, mother’s maiden name, etc.
+
+### Issues related to security issues in production
+
+This includes content such as:
+
+* CVEs that affect libraries used in production
+* Issues returned from WASA scans
+
+Inspecting our open-source code will show what packages we're using at which versions, which could lead to security issues --- though in terms of good posture, issues indicating a known security issue and tracking our fixing of that issue and subsequent release should generally remain private.
+
+### Postmortems
+
+As a rule, postmortems should generally be written privately, to allow the team to focus on documenting the important details of what went wrong, who was involved in resolution, and what systems were touched, without worrying about self-censorship for possible security details or contact information, and to avoid blaming any individuals publicly.
+
+After finishing the postmortem, the postmortem SHOULD be copied to a public repository with names and sensitive technical information stripped out.
+
+### Vendor selection process
+
+*Gray area.* If the VA has been *asked* by a vendor to evaluate their software, issues and documentation related to that evaluation should likely remain private. However, if the VA has initiated their own evaluation of a given software, those results are less likely to be sensitive.
+
+Confirm specific cases with DSVA.
+
+### Documentation of VA systems and architecture
+
+*Gray area.* This depends heavily on the systems themselves. Try asking around in DSVA's [#sre](https://dsva.slack.com/channels/sre) Slack channel.
+
+Areas like the VA's network toplogy, especially regarding the TIC and surrounding systems, are likely to be considered sensitive by VA's networking and security teams.
+
+### Internal phone numbers / email addresses
+
+Personal contact information for individuals working on VA.gov should generally not be public.
+
+### Test user information + credentials for lower environments
+
+Credentials should remain private.
+
+## Norms for Communication
+
+## Communicating "breaking changes"
+
+Breaking changes are changes to design, content, or code that have the potential to affect (break) the work of other teams currently working on the Veteran-facing Services Platform (VSP).
+
+For example:
+
+* A new design pattern is added to the design system
+* The Sketch file has been updated
+* A change to how the feature toggle works
+* A change to how the website build process works
+* A significant change to the content style guide
+
+**All instances of breaking changes should be posted to [#vfs-all-teams](https://dsva.slack.com/channels/vfs-all-teams).**
+
+The post needs to provide enough information that a designer, developer, or content person can know what they need to do in order to accommodate the change in their work. Some examples:
+
+> Sketch file has been updated to include new treatment for X. Find the Sketch file here [link].
+
+> We changed how the feature toggle works. Instead of doing [describe the old way], you need to do X [describe the new way].
+
+## DEPO and platform responsibilities
+
+### DEPO authorizes access for VFS teams
+
+* To ensure we limit VA access to the right people, a DEPO person will add VFS team members.
+  * If a new need arises (e.g., access to a new Github repo is needed), direct the request to the DEPO contact, who will determine access and permissions.
+
+### DEPO and the platform team provide support
+* DEPO and the platform team will monitor the [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support) Slack channel for product-focused questions/inquiries from VFS teams.
+
+### The platform team cannot direct VFS teams
+
+The platform team cannot direct the roadmaps of VFS teams or tell them what project they should work on next. For example:
+
+* What should I be working on?
+* What task should I do next?
+
+If these questions come up, the platform team will ask the VFS team to contact their DEPO product contact.
+
+However, we do want the platform team and all VFS teams to collaborate because their projects will have dependencies and connections. For example, the platform team may provide guidance or feedback on a VFS team's architecture so that adjustments can be made to allow dependent tools to work well together.
+
+#### Gray areas
+
+Questions are bound to come up that fall somewhere between "How do I?" and "What do I?" In these cases, the platform team will direct VFS teams to their DEPO product contact, who will decide how to handle the question or request.
+
+## VFS team responsibilities
+
+### Look for documentation before posting a question in Slack (or contacting DEPO).
+* See your team's Github "Product" folder or orientation guides.
+* If you don't find an answer, post in [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support).
+
+### Use Slack channels for different purposes.
+
+* **For product questions** use your team's "product" Slack channel.
+  * Example question: "Where can I find previous research?"
+* **For process questions**, use the [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support) Slack channel.
+  * Example questions: "I can't get the proxy to work" or "How do I integrate this into that?" or "How do I use Zenhub to do X?"
+* **For practice area questions** use your practice area Slack channel (e.g., [#design](https://dsva.slack.com/channels/design))
+
+### Use best communication method.
+
+#### Slack - best communication method
+* Slack channels allow us to do our work in the open so that others can learn from the questions asked and the answers provided. Please do the same.
+* We discourage private Slack conversations (DMs) for the same reason.
+* **VFS teams should use public Slack channels as their first method of communication.**
+
+#### Meetings - slowest communication method
+* If your team has a question about something, ask it in a Slack channel.
+* Don't wait to organize a meeting to ask a question; this will slow your team down.
+
+#### Email - least effective communication method
+* Email communications are not easily searchable or archivable.
+* Use this as a last resort for communication.
+
+
