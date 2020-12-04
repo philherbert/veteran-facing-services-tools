@@ -157,7 +157,14 @@ class Modal extends React.Component {
     const titleId = title && `${id || 'va-modal'}-title`;
     const content = this.props.contents || this.props.children;
 
-    const modalClass = classNames('va-modal', this.props.cssClass);
+    // Congratulations! You've discovered the problem! If this were a real bug,
+    // you'd have to figure out that we needed to apply the .va-modal class to
+    // the modal itself, but since this is meant to test Storybook and not your
+    // debugging skills, we'll act like you figured this out all by yourself.
+    // Good work, detective!
+    //
+    // const modalClass = classNames('va-modal', this.props.cssClass);
+    const modalClass = this.props.cssClass;
 
     const wrapperClass = classNames('va-modal-inner', {
       'usa-alert': status,
