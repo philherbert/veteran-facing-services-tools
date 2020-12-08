@@ -55,15 +55,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `vagov-documentation`,
-        short_name: `vagov-documentation`,
-        start_url: `/`,
-        icon: '',
-      },
-    },
     `gatsby-plugin-sass`,
     `gatsby-plugin-sitemap`,
     {
