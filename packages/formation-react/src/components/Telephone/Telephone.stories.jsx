@@ -17,7 +17,8 @@ const fields = [
   { label: 'Phone number', value: 'value' },
   { label: 'Description', value: 'description' },
 ];
-const Contacts = () => (
+
+export const Contacts = () => (
   <Table
     fields={fields}
     data={Object.entries(contactsMap).map(c => ({
