@@ -29,6 +29,7 @@
     "url": "https://github.com/department-of-veterans-affairs/veteran-facing-services-tools/issues"
   },
   "dependencies": {
+    "@department-of-veterans-affairs/formation": "link:../formation",
     "classnames": "^2.2.6",
     "lodash": "^4.17.15",
     "moment": "^2.23.0",
@@ -42,7 +43,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
-    "@department-of-veterans-affairs/formation": "^6.9.0",
     "@storybook/addon-a11y": "^6.1.1",
     "@storybook/addon-actions": "^6.1.1",
     "@storybook/addon-essentials": "^6.1.1",
