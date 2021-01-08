@@ -4,8 +4,8 @@ import React from 'react';
 import _ from 'lodash';
 import moment from 'moment';
 
-import Select from '../Select/Select';
-import NumberInput from '../NumberInput/NumberInput';
+import Select from '../Select';
+import NumberInput from '../NumberInput';
 
 import {
   isValidPartialMonthYear,

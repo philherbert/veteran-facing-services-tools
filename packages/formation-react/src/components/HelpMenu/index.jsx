@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import DropDownPanel from '../DropDownPanel/DropDownPanel';
-import IconHelp from '../IconHelp/IconHelp';
+import DropDownPanel from '../DropDownPanel';
+import IconHelp from '../IconHelp';
 
 class HelpMenu extends React.Component {
   render() {

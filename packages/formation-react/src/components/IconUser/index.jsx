@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import IconBase from '../IconBase/IconBase';
+import IconBase from '../IconBase';
 
 class IconUser extends React.Component {
   render() {

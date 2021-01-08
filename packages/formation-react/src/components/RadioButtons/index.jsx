@@ -3,7 +3,7 @@ import React from 'react';
 import _ from 'lodash';
 import classNames from 'classnames';
 
-import ExpandingGroup from '../ExpandingGroup/ExpandingGroup';
+import ExpandingGroup from '../ExpandingGroup';
 
 import { makeField } from '../../helpers/fields';
 

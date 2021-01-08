@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import Checkbox from '../Checkbox/Checkbox';
+import Checkbox from '../Checkbox';
 
 export default function PrivacyAgreement({ onChange, checked, showError }) {
   return (

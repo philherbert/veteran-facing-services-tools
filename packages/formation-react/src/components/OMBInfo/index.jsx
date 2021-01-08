@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import Modal from '../Modal/Modal';
+import Modal from '../Modal';
 
 class OMBInfo extends React.Component {
   constructor(props) {
