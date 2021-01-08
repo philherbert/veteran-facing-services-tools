@@ -3,7 +3,7 @@ import { shallow, mount } from 'enzyme';
 import { expect } from 'chai';
 import sinon from 'sinon';
 
-import TextArea from './TextArea';
+import TextArea from './index';
 import { makeField } from '../../helpers/fields';
 import { axeCheck } from '../../helpers/test-helpers';
 

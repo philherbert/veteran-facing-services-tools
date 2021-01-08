@@ -1,6 +1,6 @@
 import React from 'react';
 
-import IconUser from './IconUser';
+import IconUser from './index';
 
 export default {
   title: 'Components/Icons/IconUser',

@@ -3,7 +3,7 @@ import { expect } from 'chai';
 import { shallow } from 'enzyme';
 import sinon from 'sinon';
 
-import Telephone, { CONTACTS, PATTERNS } from './Telephone';
+import Telephone, { CONTACTS, PATTERNS } from './index';
 
 describe('Widget <Telephone />', () => {
   // custom numbers

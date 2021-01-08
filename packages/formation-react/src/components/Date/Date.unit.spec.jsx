@@ -3,7 +3,7 @@ import React from 'react';
 import { expect } from 'chai';
 import { shallow } from 'enzyme';
 import { axeCheck } from '../../helpers/test-helpers';
-import Date from './Date';
+import Date from './index';
 import { makeField } from '../../helpers/fields.js';
 
 describe('<Date>', () => {

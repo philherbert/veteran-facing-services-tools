@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { expect } from 'chai';
-import Pagination from './Pagination';
+import Pagination from './index';
 import { axeCheck } from '../../helpers/test-helpers';
 
 const props = {

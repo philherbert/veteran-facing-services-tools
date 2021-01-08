@@ -7,7 +7,7 @@ import chai, { expect } from 'chai';
 import { makeField } from '../../helpers/fields.js';
 
 import ReactTestUtils from 'react-dom/test-utils';
-import NumberInput from './NumberInput';
+import NumberInput from './index';
 
 chai.use(chaiAsPromised);
 

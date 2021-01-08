@@ -4,7 +4,7 @@ import { expect } from 'chai';
 import sinon from 'sinon';
 import { axeCheck } from '../../helpers/test-helpers';
 
-import CollapsiblePanel from './CollapsiblePanel';
+import CollapsiblePanel from './index';
 
 describe('<CollapsiblePanel>', () => {
   beforeEach(() => {

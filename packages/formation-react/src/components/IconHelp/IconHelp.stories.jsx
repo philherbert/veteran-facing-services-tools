@@ -1,6 +1,6 @@
 import React from 'react';
 
-import IconHelp from './IconHelp';
+import IconHelp from './index';
 
 export default {
   title: 'Components/Icons/IconHelp',

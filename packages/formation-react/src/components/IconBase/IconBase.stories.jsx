@@ -1,6 +1,6 @@
 import React from 'react';
 
-import IconBase from './IconBase';
+import IconBase from './index';
 
 export default {
   title: 'Components/Icons/IconBase',

@@ -4,7 +4,7 @@ import { axeCheck } from '../../helpers/test-helpers';
 import { expect } from 'chai';
 import sinon from 'sinon';
 
-import FileInput from './FileInput';
+import FileInput from './index';
 
 describe('<FileInput>', () => {
   it('no error styles when errorMessage undefined', () => {

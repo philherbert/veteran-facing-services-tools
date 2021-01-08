@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 import { expect } from 'chai';
 import { axeCheck } from '../../helpers/test-helpers';
 
-import MonthYear from './MonthYear';
+import MonthYear from './index';
 import { makeField } from '../../helpers/fields.js';
 
 describe('<MonthYear>', () => {
