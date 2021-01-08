@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import Modal from './Modal';
+import Modal from './index';
 
 export default {
   title: 'Components/Modal',
   component: Modal,
 };
 
-const Template = (args) => {
+const Template = args => {
   const [visible, setVisible] = useState(args.visible);
   const onClose = () => setVisible(!visible);
   return (
@@ -36,12 +36,12 @@ const defaultArgs = {
   primaryButton: {
     text: 'Primary button',
     // eslint-disable-next-line no-console
-    action: (e) => console.log('Primary button clicked. Event fired:', e),
+    action: e => console.log('Primary button clicked. Event fired:', e),
   },
   secondaryButton: {
     text: 'Secondary button',
     // eslint-disable-next-line no-console
-    action: (e) => console.log('Secondary button clicked. Event fired:', e),
+    action: e => console.log('Secondary button clicked. Event fired:', e),
   },
   title: 'Modal title goes here',
 };

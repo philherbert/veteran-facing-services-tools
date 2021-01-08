@@ -1,12 +1,12 @@
 import React from 'react';
-import CollapsiblePanel from './CollapsiblePanel';
+import CollapsiblePanel from './index';
 
 export default {
   title: 'Components/CollapsiblePanel',
   component: CollapsiblePanel,
 };
 
-const Template = (args) => (
+const Template = args => (
   <CollapsiblePanel {...args}>
     <div>Panel contents go here.</div>
   </CollapsiblePanel>

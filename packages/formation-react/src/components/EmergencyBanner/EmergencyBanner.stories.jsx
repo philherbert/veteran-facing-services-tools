@@ -1,5 +1,5 @@
 import React from 'react';
-import EmergencyBanner from './EmergencyBanner';
+import EmergencyBanner from './index';
 
 export default {
   title: 'Components/Banners/EmergencyBanner',

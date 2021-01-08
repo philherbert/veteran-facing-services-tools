@@ -1,6 +1,6 @@
 import React from 'react';
 
-import AlertBox, { ALERT_TYPE } from './AlertBox';
+import AlertBox, { ALERT_TYPE } from './index';
 
 export default {
   title: 'Components/AlertBox',
@@ -23,7 +23,7 @@ export default {
   },
 };
 
-const Template = (args) => <AlertBox {...args} />;
+const Template = args => <AlertBox {...args} />;
 
 const defaultArgs = {
   status: ALERT_TYPE.INFO,

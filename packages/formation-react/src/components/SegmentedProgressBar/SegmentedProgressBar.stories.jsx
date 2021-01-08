@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SegmentedProgressBar from './SegmentedProgressBar';
+import SegmentedProgressBar from './index';
 
 export default {
   title: 'Components/Progress bars/SegmentedProgressBar',

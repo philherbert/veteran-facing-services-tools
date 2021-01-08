@@ -3,8 +3,8 @@ import { expect } from 'chai';
 import { mount } from 'enzyme';
 import { axeCheck } from '../../helpers/test-helpers';
 
-import AdditionalInfo from './AdditionalInfo.jsx';
-import ExpandingGroup from '../ExpandingGroup/ExpandingGroup';
+import AdditionalInfo from './index';
+import ExpandingGroup from '../ExpandingGroup';
 
 describe('<AdditionalInfo/>', () => {
   let wrapper;

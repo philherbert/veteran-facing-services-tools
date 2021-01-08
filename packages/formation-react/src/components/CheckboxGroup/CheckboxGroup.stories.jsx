@@ -1,5 +1,5 @@
 import React from 'react';
-import CheckboxGroup from './CheckboxGroup';
+import CheckboxGroup from './index';
 
 export default {
   title: 'Components/CheckboxGroup',

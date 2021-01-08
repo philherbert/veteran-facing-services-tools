@@ -8,9 +8,9 @@ import {
   Stories,
 } from '@storybook/addon-docs/blocks';
 
-import Telephone, { CONTACTS } from './Telephone';
+import Telephone, { CONTACTS } from './index';
 import { contactsMap } from './contacts';
-import Table from '../Table/Table';
+import Table from '../Table';
 
 const fields = [
   { label: 'Property name (CONTACTS.x)', value: 'key' },

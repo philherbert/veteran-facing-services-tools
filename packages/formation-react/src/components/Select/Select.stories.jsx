@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import Select from './Select';
+import Select from './index';
 
 export default {
   title: 'Components/Select',
@@ -13,9 +13,7 @@ const Template = args => {
     setValue(newValue);
   };
 
-  return (
-    <Select {...args} value={value} onValueChange={onValueChange} />
-  );
+  return <Select {...args} value={value} onValueChange={onValueChange} />;
 };
 
 const defaultArgs = {

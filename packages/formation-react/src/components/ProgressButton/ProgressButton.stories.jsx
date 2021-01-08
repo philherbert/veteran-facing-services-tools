@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ProgressButton from './ProgressButton';
+import ProgressButton from './index';
 
 export default {
   title: 'Components/Buttons/ProgressButton',

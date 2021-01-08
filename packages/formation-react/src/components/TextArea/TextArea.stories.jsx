@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import TextArea from './TextArea';
+import TextArea from './index';
 
 export default {
   title: 'Components/TextArea',
@@ -13,9 +13,7 @@ const Template = args => {
     setField(newField);
   };
 
-  return (
-    <TextArea {...args} field={field} onValueChange={onValueChange} />
-  );
+  return <TextArea {...args} field={field} onValueChange={onValueChange} />;
 };
 
 const defaultArgs = {

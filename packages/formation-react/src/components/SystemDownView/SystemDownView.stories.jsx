@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SystemDownView from './SystemDownView';
+import SystemDownView from './index';
 
 export default {
   title: 'Components/SystemDownView',

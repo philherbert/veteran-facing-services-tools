@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import NumberInput from './NumberInput';
+import NumberInput from './index';
 
 export default {
   title: 'Components/NumberInput',
@@ -13,13 +13,7 @@ const Template = args => {
     setField(newField);
   };
 
-  return (
-    <NumberInput
-      {...args}
-      field={field}
-      onValueChange={onValueChange}
-    />
-  );
+  return <NumberInput {...args} field={field} onValueChange={onValueChange} />;
 };
 
 const defaultArgs = {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import PromoBanner, { PROMO_BANNER_TYPES } from './PromoBanner';
+import PromoBanner, { PROMO_BANNER_TYPES } from './index';
 
 export default {
   title: 'Components/Banners/PromoBanner',

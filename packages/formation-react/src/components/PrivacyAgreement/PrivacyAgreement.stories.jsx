@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import PrivacyAgreement from './PrivacyAgreement';
+import PrivacyAgreement from './index';
 
 export default {
   title: 'Components/PrivacyAgreement',

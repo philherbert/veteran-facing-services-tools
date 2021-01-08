@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import DropDownPanel from './DropDownPanel';
+import DropDownPanel from './index';
 
 export default {
   title: 'Components/DropDownPanel',
   component: DropDownPanel,
 };
 
-const Template = (args) => {
+const Template = args => {
   const [isOpen, setOpen] = useState(args.isOpen);
 
   return (

@@ -4,7 +4,7 @@ import { mount } from 'enzyme';
 import { axeCheck } from '../../helpers/test-helpers';
 import sinon from 'sinon';
 
-import AcceptTermsPrompt from './AcceptTermsPrompt.jsx';
+import AcceptTermsPrompt from './index';
 
 const defaultProps = {
   terms: {

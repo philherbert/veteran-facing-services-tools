@@ -1,12 +1,12 @@
 import React from 'react';
-import LoadingIndicator from './LoadingIndicator';
+import LoadingIndicator from './index';
 
 export default {
   title: 'Components/LoadingIndicator',
   component: LoadingIndicator,
 };
 
-const Template = (args) => <LoadingIndicator {...args} />;
+const Template = args => <LoadingIndicator {...args} />;
 
 const defaultArgs = {};
 

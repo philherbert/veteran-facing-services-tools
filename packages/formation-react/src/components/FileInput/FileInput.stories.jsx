@@ -1,5 +1,5 @@
 import React from 'react';
-import FileInput from './FileInput';
+import FileInput from './index';
 
 export default {
   title: 'Components/FileInput',

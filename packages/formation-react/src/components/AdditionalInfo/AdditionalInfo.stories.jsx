@@ -1,5 +1,5 @@
 import React from 'react';
-import AdditionalInfo from './AdditionalInfo';
+import AdditionalInfo from './index';
 
 export default {
   title: 'Components/AdditionalInfo',
@@ -12,7 +12,7 @@ export default {
   },
 };
 
-const Template = (args) => (
+const Template = args => (
   <AdditionalInfo {...args}>
     <ul>
       <li>{args.infoA}</li>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Date from './Date';
+import Date from './index';
 
 export default {
   title: 'Components/Date',
@@ -9,11 +9,7 @@ export default {
 const Template = args => {
   const [date, setDate] = useState(args.date);
   return (
-    <Date
-      {...args}
-      date={date}
-      onValueChange={newDate => setDate(newDate)}
-    />
+    <Date {...args} date={date} onValueChange={newDate => setDate(newDate)} />
   );
 };
 

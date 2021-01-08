@@ -2,7 +2,7 @@
 import React from 'react';
 import moment from 'moment';
 
-import MaintenanceBanner from './MaintenanceBanner';
+import MaintenanceBanner from './index';
 
 export default {
   title: 'Components/Banners/MaintenanceBanner',

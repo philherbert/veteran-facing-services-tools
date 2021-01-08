@@ -1,12 +1,12 @@
 import React from 'react';
-import Breadcrumbs from './Breadcrumbs';
+import Breadcrumbs from './index';
 
 export default {
   title: 'Components/Breadcrumbs',
   component: Breadcrumbs,
 };
 
-const Template = (args) => (
+const Template = args => (
   <Breadcrumbs {...args}>
     <a href="#" key="1">
       Home

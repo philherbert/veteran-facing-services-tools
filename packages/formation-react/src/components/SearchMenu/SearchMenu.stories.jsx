@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import SearchMenu from './SearchMenu';
+import SearchMenu from './index';
 
 export default {
   title: 'Components/SearchMenu',

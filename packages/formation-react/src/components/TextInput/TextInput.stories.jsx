@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import TextInput from './TextInput';
+import TextInput from './index';
 
 export default {
   title: 'Components/TextInput',
@@ -13,9 +13,7 @@ const Template = args => {
     setField(newField);
   };
 
-  return (
-    <TextInput {...args} field={field} onValueChange={onValueChange} />
-  );
+  return <TextInput {...args} field={field} onValueChange={onValueChange} />;
 };
 
 const defaultArgs = {
